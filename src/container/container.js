@@ -16,7 +16,7 @@ export default function Container() {
   const Tab = createBottomTabNavigator();
   return (
     <NavigationContainer>
-      <Tab.Navigator
+      <Tab.Navigator 
         screenOptions={{
           tabBarHideOnKeyboard: true,
           headerShown: false,
@@ -36,18 +36,19 @@ export default function Container() {
           },
         }}>
            
-        <Tab.Screen name="Ana Sayfa" component={HomeScreen}
-          options={{
-
-            tabBarIcon: ({ color, focused }) => focused ?
-              <Image source={HomeFocused} /> :
-              <Image source={Home} style={color = { color }} />,
-          }} />
+        
            <Tab.Screen name="Kategoriler" component={CategoryScreen}
           options={{
             tabBarIcon: ({ color, focused }) => focused ?
               (<IconI name="grid" color={color} size={24} />) :
               (<IconI name="grid-outline" color={color} size={24} />),
+          }} />
+          <Tab.Screen name="Ana Sayfa" component={HomeScreen}
+          options={{
+
+            tabBarIcon: ({ color, focused }) => focused ?
+              <Image source={HomeFocused} /> :
+              <Image source={Home} style={color = { color }} />,
           }} />
       
         <Tab.Screen name="Sepetim" component={ShopingCartScreen}

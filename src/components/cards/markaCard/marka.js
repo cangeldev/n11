@@ -5,7 +5,7 @@ import useFetch from 'hooks/useFetch/useFetch'
 import MarkaCard from './markaCard'
 import { Adidas, Flo, Hasbro, Mavi, Nivea, Nike } from 'assets'
 export default function Marka({ backgroundPath }) {
-    const deneme = [{ key: 1, value: Hasbro },
+    const deneme = [{ key: 1, value: Adidas },
     { key: 2, value: Nike },
     { key: 3, value: Nivea },
     { key: 4, value: Flo },

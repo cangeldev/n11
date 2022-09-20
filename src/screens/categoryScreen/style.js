@@ -6,9 +6,9 @@ export default StyleSheet.create({
         backgroundColor: colors.screenBackground
     },
     title:{
-        marginTop:10,
-        marginLeft:10,
-        fontSize:17,
+        marginTop:5,
+        marginLeft:15,
+        fontSize:19,
         fontWeight:"bold",
         color:colors.black
     }

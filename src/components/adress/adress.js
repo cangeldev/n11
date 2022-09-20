@@ -20,7 +20,7 @@ export default function Adress() {
           name="chevron-small-right"
           size={22}
           color={colors.black}
-          style={{ position: "absolute", right: 10 }} />
+          style={style.iconE} />
       </View>
     </TouchableWithoutFeedback>
   )

@@ -10,7 +10,6 @@ import Menu from 'components/cards/menuCard/menu'
 import HeaderMenuCard from 'components/cards/headerMenuCard/headerMenuCard'
 import Products from 'components/cards/productsCard/products'
 import Marka from 'components/cards/markaCard/marka'
-
 export default function HomeScreen() {
     return (
         <View style={style.container}>

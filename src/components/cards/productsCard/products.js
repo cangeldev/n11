@@ -6,11 +6,9 @@ import colors from 'assets/colors/colors';
 import ProductsCard from './productsCard';
 import useFetch from 'hooks/useFetch/useFetch';
 export default function Products({ title }) {
-  const { products, error,loading } = useFetch()
-
+  const { products, error, loading } = useFetch()
   return (
-   
-      <View style={style.container}>
+    <View style={style.container}>
       <Text style={style.title}>{title}</Text>
       <View style={style.allProducts}>
         <Text style={style.text}>Tümünü Gör </Text>
@@ -20,15 +18,13 @@ export default function Products({ title }) {
           color={colors.statusBarBackground}
         />
       </View>
-     <View>
-     <ScrollView horizontal showsHorizontalScrollIndicator={false}>
-     {
-        products.slice(5,9).map((item) => <ProductsCard key={item.id} products={item} />)
-      }
-       </ScrollView>
-     </View>
-
+      <View>
+        <ScrollView horizontal showsHorizontalScrollIndicator={false}>
+          {
+            products.slice(5, 9).map((item) => <ProductsCard key={item.id} products={item} />)
+          }
+        </ScrollView>
+      </View>
     </View>
-   
   )
 }

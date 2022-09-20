@@ -7,8 +7,8 @@ export default {
     tabBarIconBackground: "#424242",
     statusBarBackground: "#ea222f",
     lightGrey: "#cfd1d3",
-    star:"#ffa900",    
-    darkGreen:"#0c9741",    
-    lightGreen:"#0fbc49",    
-    screenBackground:"#eeeff2",    
+    star: "#ffa900",
+    darkGreen: "#0c9741",
+    lightGreen: "#0fbc49",
+    screenBackground: "#eeeff2",
 }

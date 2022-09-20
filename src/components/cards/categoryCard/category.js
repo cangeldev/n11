@@ -3,7 +3,6 @@ import React from 'react'
 import { M1, M10, M12, M13, M14, M15, M16, M17, M18, M19, M2, M20, M21, M22, M23, M24, M25, M3, M4, M5, M6, M7, M8, M9 } from 'assets'
 import CategoryCard from './categoryCard'
 import style from './style'
-
 export default function Category() {
     const deneme = [
         { key: 1, value: M1, text: "Moda & Giyim" },
@@ -30,7 +29,6 @@ export default function Category() {
         { key: 22, value: M23, text: "Sağlık" },
         { key: 23, value: M24, text: "Çocuk Bakım" },
         { key: 24, value: M25, text: "Süpermarket" },
-     
     ]
     return (
         <View style={style.container}>

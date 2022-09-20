@@ -1,6 +1,5 @@
 import colors from "assets/colors/colors";
 import { StyleSheet } from "react-native";
-
 export default StyleSheet.create({
     container: {
         width: 160,
@@ -12,7 +11,7 @@ export default StyleSheet.create({
         borderColor: colors.grey,
         overflow: "hidden",
         backgroundColor: colors.white,
-        marginLeft:10
+        marginLeft: 10
     },
     image: {
         width: "100%",
@@ -24,7 +23,6 @@ export default StyleSheet.create({
         resizeMode: "stretch",
         alignSelf: "center",
         marginTop: 20
-
     },
     favoriContainer: {
         width: 25,

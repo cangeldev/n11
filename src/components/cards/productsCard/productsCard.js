@@ -8,7 +8,7 @@ import Stars from 'react-native-stars';
 import IconF from 'react-native-vector-icons/Fontisto';
 import Lottie from 'lottie-react-native';
 export default function ProductsCard({ products }) {
-  const random=Math.floor(Math.random() * 10)
+  const random = Math.floor(Math.random() * 10)
   return (
     <View style={style.cardContainer}>
       <View style={style.headerView}>
@@ -43,7 +43,7 @@ export default function ProductsCard({ products }) {
           halfStar={<IconF name={'star-half'} style={[style.myStarStyle]} />} />
         <Text style={style.count}>({products.rating.count})</Text>
       </View>
-      <Text style={style.lastPrice}>{products.price+(random*100+1)} TL</Text>
+      <Text style={style.lastPrice}>{products.price + (random * 100 + 1)} TL</Text>
       <Text style={style.sepet}>SEPETTE</Text>
       <Text style={style.price}>{products.price} TL</Text>
       <Lottie style={style.lottie} source={require('assets/images/colorOptions.json')} autoPlay loop />

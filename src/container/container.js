@@ -35,7 +35,7 @@ export default function Container() {
             paddingTop: 5,
           },
         }}>
-   <Tab.Screen name="Sepetim" component={ShopingCartScreen}
+        <Tab.Screen name="Sepetim" component={ShopingCartScreen}
           options={{
             tabBarIcon: ({ color, focused }) => focused ?
               (<IconI name="cart" color={color} size={26} />) :
@@ -56,7 +56,7 @@ export default function Container() {
               (<IconI name="grid" color={color} size={24} />) :
               (<IconI name="grid-outline" color={color} size={24} />),
           }} />
-     
+
         <Tab.Screen name="Listelerim" component={ListsScreen}
           options={{
             tabBarIcon: ({ color, focused }) => focused ?

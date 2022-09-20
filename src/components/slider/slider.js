@@ -1,6 +1,6 @@
 import React from 'react'
 import { ImageSlider } from "react-native-image-slider-banner";
-import { S1, S2, S3, S4, S5} from 'assets';
+import { S1, S2, S3, S4, S5 } from 'assets';
 export default function Slider() {
     return (
         <ImageSlider localImg="true"
@@ -8,9 +8,8 @@ export default function Slider() {
             autoPlay={true}
             showIndicator={false}
             preview={false}
-            caroselImageStyle={{ height: 145,resizeMode: "center"}}          
+            caroselImageStyle={{ height: 145, resizeMode: "center" }}
             timer={3500}
-            
         />
     )
 }

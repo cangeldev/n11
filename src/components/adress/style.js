@@ -13,4 +13,8 @@ export default StyleSheet.create({
         color: colors.black,
         marginLeft: 6,
     },
+    iconE: {
+        position: "absolute",
+        right: 10
+    }
 });

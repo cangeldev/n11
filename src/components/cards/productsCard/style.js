@@ -37,8 +37,7 @@ export default StyleSheet.create({
         borderWidth: 1,
         borderColor: colors.lightGrey,
         borderTopColor: colors.white,
-        marginLeft:10
-      
+        marginLeft: 10
     },
     headerView: {
         width: "101%",
@@ -126,5 +125,4 @@ export default StyleSheet.create({
         right: 11,
         color: colors.black
     }
-
 });

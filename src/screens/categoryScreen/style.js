@@ -5,11 +5,11 @@ export default StyleSheet.create({
         flex: 1,
         backgroundColor: colors.screenBackground
     },
-    title:{
-        marginTop:5,
-        marginLeft:15,
-        fontSize:19,
-        fontWeight:"bold",
-        color:colors.black
+    title: {
+        marginTop: 5,
+        marginLeft: 15,
+        fontSize: 19,
+        fontWeight: "bold",
+        color: colors.black
     }
 });

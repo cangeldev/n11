@@ -20,7 +20,7 @@ export default function ShopingCartScreen() {
       </View>
       <Text style={style.text}>İlginizi Çekebilecek Ürünler</Text>
       <View style={style.productsView}>
-        <RecommendedProducts/>
+        <RecommendedProducts />
       </View>
     </View>
   )

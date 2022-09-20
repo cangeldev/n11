@@ -16,7 +16,7 @@ export default function Container() {
   const Tab = createBottomTabNavigator();
   return (
     <NavigationContainer>
-      <Tab.Navigator 
+      <Tab.Navigator
         screenOptions={{
           tabBarHideOnKeyboard: true,
           headerShown: false,
@@ -35,28 +35,28 @@ export default function Container() {
             paddingTop: 5,
           },
         }}>
-           
-        
-           <Tab.Screen name="Kategoriler" component={CategoryScreen}
+   <Tab.Screen name="Sepetim" component={ShopingCartScreen}
           options={{
             tabBarIcon: ({ color, focused }) => focused ?
-              (<IconI name="grid" color={color} size={24} />) :
-              (<IconI name="grid-outline" color={color} size={24} />),
+              (<IconI name="cart" color={color} size={26} />) :
+              (<IconI name="cart-outline" color={color} size={26} />),
           }} />
-          <Tab.Screen name="Ana Sayfa" component={HomeScreen}
+
+
+        <Tab.Screen name="Ana Sayfa" component={HomeScreen}
           options={{
 
             tabBarIcon: ({ color, focused }) => focused ?
               <Image source={HomeFocused} /> :
               <Image source={Home} style={color = { color }} />,
           }} />
-      
-        <Tab.Screen name="Sepetim" component={ShopingCartScreen}
+        <Tab.Screen name="Kategoriler" component={CategoryScreen}
           options={{
             tabBarIcon: ({ color, focused }) => focused ?
-              (<IconI name="cart" color={color} size={26} />) :
-              (<IconI name="cart-outline" color={color} size={26} />),
+              (<IconI name="grid" color={color} size={24} />) :
+              (<IconI name="grid-outline" color={color} size={24} />),
           }} />
+     
         <Tab.Screen name="Listelerim" component={ListsScreen}
           options={{
             tabBarIcon: ({ color, focused }) => focused ?

@@ -9,5 +9,6 @@ export default {
     lightGrey: "#cfd1d3",
     star:"#ffa900",    
     darkGreen:"#0c9741",    
+    lightGreen:"#0fbc49",    
     screenBackground:"#eeeff2",    
 }

@@ -1,3 +1,4 @@
+import colors from "assets/colors/colors";
 import { StyleSheet } from "react-native";
 export default StyleSheet.create({
     container: {
@@ -16,5 +17,6 @@ export default StyleSheet.create({
     },
     title: {
         fontSize: 15,
+        color:colors.black
     }
 })

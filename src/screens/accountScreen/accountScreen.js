@@ -5,14 +5,12 @@ import IconI from "react-native-vector-icons/Ionicons";
 import colors from 'assets/colors/colors';
 import AccountButton from 'components/accountButton/accountButton';
 import { list } from 'utils/helper';
+import AccountHeader from 'components/accountHeader/accountHeader';
 export default function AccountScreen() {
   return (
     <View style={style.container}>
       <ScrollView>
-        <View style={style.header}>
-          <Text style={style.headerTitle}>Hesabım</Text>
-          <IconI name="search" color={colors.black} size={28} />
-        </View>
+      <AccountHeader title={"Hesabım"}/>
         <View style={style.accountView}>
           <View>
             <Text style={style.text}>Can Gel {"\n"}can.gel@hotmail.com</Text>

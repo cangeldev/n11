@@ -47,8 +47,8 @@ export default function Container() {
           options={{
 
             tabBarIcon: ({ color, focused }) => focused ?
-              <Image source={HomeFocused} /> :
-              <Image source={Home} style={color = { color }} />,
+              <Image source={HomeFocused} style={{ width: 22, height: 22,tintColor:color }} /> :
+              <Image source={Home} style={{width:22,height:22,tintColor:color}} />,
           }} />
         <Tab.Screen name="Kategoriler" component={CategoryScreen}
           options={{
@@ -66,8 +66,8 @@ export default function Container() {
         <Tab.Screen name="Hesabım" component={AccountScreen}
           options={{
             tabBarIcon: ({ color, focused }) => focused ?
-              <Image source={UserFocused} /> :
-              <Image source={User} style={color = { color }} />,
+              <Image source={UserFocused} style={{ width: 23, height: 23,tintColor:color }} /> :
+              <Image source={User} style={{ width: 23, height: 23,tintColor:color }} />,
           }} />
       </Tab.Navigator>
     </NavigationContainer>

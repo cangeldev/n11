@@ -2,28 +2,28 @@ import { L1, L10, L11, L12, L13, L14, L15, L16, L17, L18, L19, L2, L20, L21, L3,
 import { M1, M10, M12, M13, M14, M15, M16, M17, M18, M19, M2, M20, M21, M22, M23, M24, M25, M3, M4, M5, M6, M7, M8, M9 } from 'assets'
 import { Adidas, Flo, Hasbro, Mavi, Nivea, Nike } from 'assets'
 export const list = [
-    { key: 1, value: L1, text: "Kuponlarım" },
-    { key: 2, value: L2, text: "Siparişlerim" },
-    { key: 3, value: L3, text: "İstek Listelerim/Favorilerim" },
-    { key: 4, value: L4, text: "Yorumlarım" },
-    { key: 5, value: L5, text: "Paylaş Kazan" },
-    { key: 6, value: L6, text: "Bildirimlerim" },
-    { key: 7, value: L7, text: "Garajım" },
-    { key: 8, value: L8, text: "Pet11'e Kayıtlı Dostlarım" },
-    { key: 9, value: L4, text: "Ürün Yorumlarım" },
-    { key: 10, value: L9, text: "Takip Ettiğim Mağazalar" },
-    { key: 11, value: L10, text: "Son Baktıklarım" },
-    { key: 12, value: L11, text: "Eşle Kazan" },
-    { key: 13, value: L12, text: "Kuponmatik" },
-    { key: 14, value: L13, text: "Süper Fırsatlar" },
-    { key: 15, value: L14, text: "Çok Satanlar" },
-    { key: 16, value: L15, text: "Hediye Rehberi" },
-    { key: 17, value: L16, text: "Yurt Dışından Ürünler" },
-    { key: 18, value: L17, text: "Bildirim Ayarları" },
-    { key: 19, value: L18, text: "Canlı Destek" },
-    { key: 20, value: L19, text: "Geri Bildirim" },
-    { key: 21, value: L20, text: "Yardım" },
-    { key: 22, value: L21, text: "Hakkımızda" },
+    { key: 1, value: L1, text: "Kuponlarım", colorsPath: "#ee2c2c" },
+    { key: 2, value: L2, text: "Siparişlerim" , colorsPath: "#8b658b" },
+    { key: 3, value: L3, text: "İstek Listelerim/Favorilerim", colorsPath: "#8b4513" },
+    { key: 4, value: L4, text: "Yorumlarım" , colorsPath: "#00008b"},
+    { key: 5, value: L5, text: "Paylaş Kazan" , colorsPath: "#8b7b8b"},
+    { key: 6, value: L6, text: "Bildirimlerim" , colorsPath: "#00f5ff"},
+    { key: 7, value: L7, text: "Garajım" , colorsPath: "#ee9a49"},
+    { key: 8, value: L8, text: "Pet11'e Kayıtlı Dostlarım" , colorsPath: "#bc8f8f"},
+    { key: 9, value: L4, text: "Ürün Yorumlarım" , colorsPath: "#32cd32"},
+    { key: 10, value: L9, text: "Takip Ettiğim Mağazalar" , colorsPath: "#cdcd00"},
+    { key: 11, value: L10, text: "Son Baktıklarım" , colorsPath: "#8b3e2f"},
+    { key: 12, value: L11, text: "Eşle Kazan" , colorsPath: "#eecfa1"},
+    { key: 13, value: L12, text: "Kuponmatik" , colorsPath: "#087EB0"},
+    { key: 14, value: L13, text: "Süper Fırsatlar" , colorsPath: "#cc5a11"},
+    { key: 15, value: L14, text: "Çok Satanlar" , colorsPath: "#8b0a50"},
+    { key: 16, value: L15, text: "Hediye Rehberi" , colorsPath: "#800000"},
+    { key: 17, value: L16, text: "Yurt Dışından Ürünler" , colorsPath: "#8b008b"},
+    { key: 18, value: L17, text: "Bildirim Ayarları" , colorsPath: "#00ced1"},
+    { key: 19, value: L18, text: "Canlı Destek" , colorsPath: "#a2cd5a"},
+    { key: 20, value: L19, text: "Geri Bildirim" , colorsPath: "#008080"},
+    { key: 21, value: L20, text: "Yardım" , colorsPath: "#ffcc99"},
+    { key: 22, value: L21, text: "Hakkımızda" , colorsPath: "#ba55d3"},
 ]
 
 export const categoryListe = [
@@ -63,28 +63,21 @@ export const marka = [
 ]
 
 export const menuImages = [
-    {
-        id: 1, image: M1, name: "Moda"
-    },
-    {
-        id: 2, image: M2, name: "Elektronik",
-    },
-    {
-        id: 3, image: M3, name: "Ev & Yaşam",
-    },
-    {
-        id: 4, image: M4, name: "Anne & Bebek",
-    },
-    {
-        id: 5, image: M5, name: "Kozmetik",
-    },
-    {
-        id: 6, image: M6, name: "Mücevher & Saat",
-    },
-    {
-        id: 7, image: M7, name: "Spor & Outdoor",
-    },
-    {
-        id: 8, image: M8, name: "Kitap & Hobi"
-    }
+    { id: 1, image: M1, name: "Moda" },
+    { id: 2, image: M2, name: "Elektronik", },
+    { id: 3, image: M3, name: "Ev & Yaşam", },
+    { id: 4, image: M4, name: "Anne & Bebek", },
+    { id: 5, image: M5, name: "Kozmetik", },
+    { id: 6, image: M6, name: "Mücevher & Saat", },
+    { id: 7, image: M7, name: "Spor & Outdoor", },
+    { id: 8, image: M8, name: "Kitap & Hobi" }
+]
+export const iconColors = [
+    { colorsPath: "#ffff" },
+    { colorsPath: "#ffff" },
+    { colorsPath: "#ffff" },
+    { colorsPath: "#ffff" },
+    { colorsPath: "#ffff" },
+
+
 ]

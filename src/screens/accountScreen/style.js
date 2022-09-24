@@ -5,21 +5,7 @@ export default StyleSheet.create({
         flex: 1,
         backgroundColor: colors.backgroundGrey
     },
-    header: {
-        backgroundColor: colors.white,
-        flexDirection: "row",
-        alignItems: "center",
-        justifyContent: "space-between",
-        paddingHorizontal: 10,
-        height: 60,
-        elevation: 5
-    },
-    headerTitle: {
-        color: colors.black,
-        marginLeft: 5,
-        fontWeight: "bold",
-        fontSize: 20
-    },
+   
     accountView: {
         flexDirection: "row",
         backgroundColor: colors.white,

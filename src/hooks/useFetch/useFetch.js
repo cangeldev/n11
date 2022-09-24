@@ -10,10 +10,10 @@ export default function useFetch() {
       const response = await axios.get(Config.API_URL);
       setProducts(response.data);
       setLoading(false)
-    } catch (err) {
-      console.log("hata")
+    } catch (err) {      
       setError(err);
       setLoading(false)
+      console.log(err)
     }
   }
   useEffect(() => {

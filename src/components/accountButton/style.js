@@ -7,14 +7,14 @@ export default StyleSheet.create({
     },
     image: {
         marginRight: 15,
-        tintColor: "grey",
-        width:22,
-        height:22
+        tintColor: "red",
+        width:21,
+        height:21
     },
     icon: {
         position: "absolute", right: 10
     },
     title: {
-        fontSize: 16
+        fontSize: 15,
     }
 })

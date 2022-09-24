@@ -8,7 +8,7 @@ export default function AccountButton({ category }) {
         <TouchableOpacity style={style.container}>
             <Image source={category.value} style={style.image} />
             <Text style={style.title}>{category.text}</Text>
-            <IconO style={style.icon} name={"chevron-right"} color={colors.grey} size={24} />
+            <IconO style={style.icon} name={"chevron-right"} color={colors.red} size={24} />
         </TouchableOpacity>
     )
 }

@@ -32,7 +32,7 @@ export default StyleSheet.create({
     },
     text: {
         color: colors.black,
-        fontSize: 17,
+        fontSize: 16,
         lineHeight: 23
     },
     listView: {

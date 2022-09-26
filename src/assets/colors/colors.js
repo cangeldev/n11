@@ -12,5 +12,7 @@ export default {
     lightGreen: "#0fbc49",
     screenBackground: "#eeeff2",
     backgroundGrey: "#e9eaee",
-    textColor: "#191919"
+    textColor: "#191919",
+    navyBlue: "#2e4d92",
+    blue: "#4782ec",
 }

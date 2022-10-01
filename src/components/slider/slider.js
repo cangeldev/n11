@@ -8,7 +8,7 @@ export default function Slider() {
             autoPlay={true}
             showIndicator={false}
             preview={false}
-            caroselImageStyle={{ height: 145, resizeMode: "center" }}
+            caroselImageStyle={{ height: 148, resizeMode: "center" }}
             timer={3500}
         />
     )

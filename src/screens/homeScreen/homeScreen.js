@@ -10,12 +10,13 @@ import Menu from 'components/cards/menuCard/menu'
 import HeaderMenuCard from 'components/cards/headerMenuCard/headerMenuCard'
 import Products from 'components/cards/productsCard/products'
 import Marka from 'components/cards/markaCard/marka'
+import FocusAwareStatusBar from 'components/focusAwareStatusBar/focusAwareStatusBar'
 export default function HomeScreen() {
     return (
         <View style={style.container}>
             <ScrollView stickyHeaderIndices={[0]}>
                 <Header />
-                <StatusBar backgroundColor={colors.statusBarBackground} />
+                <FocusAwareStatusBar barStyle="light-content" backgroundColor={colors.statusBarBackground} />                
                 <Adress />
                 <View style={style.headerMenu}>
                     <HeaderMenuCard path={Kupon} text={"Kuponlar"} />

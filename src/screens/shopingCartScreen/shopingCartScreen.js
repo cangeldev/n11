@@ -3,9 +3,12 @@ import React from 'react'
 import style from './style'
 import Lottie from 'lottie-react-native';
 import RecommendedProducts from 'components/cards/recommendedProducts/recommendedProducts';
+import FocusAwareStatusBar from 'components/focusAwareStatusBar/focusAwareStatusBar';
+import colors from 'assets/colors/colors';
 export default function ShopingCartScreen() {
   return (
     <View style={style.container}>
+      <FocusAwareStatusBar barStyle="light-content" backgroundColor={colors.statusBarBackground} />
       <View style={style.header}>
         <Text style={style.title}>Sepetim</Text>
       </View>

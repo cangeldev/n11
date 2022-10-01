@@ -1,4 +1,4 @@
-import { View, Text, ScrollView } from 'react-native'
+import { View, Text, ScrollView, StatusBar } from 'react-native'
 import React from 'react'
 import style from './style'
 import IconI from "react-native-vector-icons/Ionicons";
@@ -6,10 +6,12 @@ import colors from 'assets/colors/colors';
 import AccountButton from 'components/accountButton/accountButton';
 import { list } from 'utils/helper';
 import AccountHeader from 'components/accountHeader/accountHeader';
+import FocusAwareStatusBar from 'components/focusAwareStatusBar/focusAwareStatusBar';
 export default function AccountScreen() {
   return (
     <View style={style.container}>
       <ScrollView>
+        <FocusAwareStatusBar barStyle="dark-content" backgroundColor={colors.white} />
         <AccountHeader title={"Hesabım"} />
         <View style={style.accountView}>
           <View>

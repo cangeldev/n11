@@ -23,7 +23,9 @@ export default StyleSheet.create({
         color: colors.black,
         lineHeight: 20,
         marginLeft: 7,
-        marginTop: 10
+        marginTop: 10,
+        fontFamily:"OpenSans-Medium",
+        fontSize:13
     },
     rateView: {
         flexDirection: "row",
@@ -49,7 +51,8 @@ export default StyleSheet.create({
         color:colors.grey,
         marginLeft:5,
         marginTop:5,
-        fontSize:12
+        fontSize:11,
+        fontFamily:"OpenSans-Medium",
     },
     lastPrice: {
         marginLeft: 6,

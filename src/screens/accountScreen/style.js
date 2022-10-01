@@ -5,7 +5,7 @@ export default StyleSheet.create({
         flex: 1,
         backgroundColor: colors.backgroundGrey
     },
-   
+
     accountView: {
         flexDirection: "row",
         backgroundColor: colors.white,
@@ -19,7 +19,8 @@ export default StyleSheet.create({
     text: {
         color: colors.black,
         fontSize: 16,
-        lineHeight: 23
+        lineHeight: 23,
+
     },
     listView: {
         backgroundColor: colors.white,
@@ -31,8 +32,8 @@ export default StyleSheet.create({
     title: {
         marginHorizontal: 12,
         marginVertical: 14,
-        fontSize:22,
-        fontWeight:"bold",
-        color:colors.black
+        fontSize: 20,
+        fontFamily: "OpenSans-Bold",
+        color: colors.black
     }
 });

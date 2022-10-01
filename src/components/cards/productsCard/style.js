@@ -8,12 +8,12 @@ export default StyleSheet.create({
         paddingBottom: 16,
     },
     title: {
-        fontSize: 16,
+        fontSize: 17,
         marginTop: 10,
         marginLeft: 14,
         alignSelf: 'flex-start',
-        fontWeight: "bold",
-        color: colors.black
+        fontFamily: "OpenSans_SemiCondensed-SemiBold",
+        color: colors.black,
     },
     allProducts: {
 
@@ -26,7 +26,8 @@ export default StyleSheet.create({
     text: {
         fontSize: 15,
         color: colors.statusBarBackground,
-        marginRight: -4
+        marginRight: -4,
+        fontFamily: "OpenSans_SemiCondensed-Medium",
     },
     cardContainer: {
         width: 160,
@@ -51,9 +52,10 @@ export default StyleSheet.create({
         alignSelf: "center"
     },
     headerViewText: {
-        fontSize: 13,
+        fontSize: 12,
         marginLeft: 5,
-        color: colors.white
+        color: colors.white,
+        fontFamily:"OpenSans_SemiCondensed-Medium"
     },
     image: {
         width: 120,
@@ -78,7 +80,8 @@ export default StyleSheet.create({
         margin: 5,
         color: colors.black,
         lineHeight: 20,
-        marginLeft: 7
+        marginLeft: 7,
+        fontFamily:"OpenSans_SemiCondensed-Regular",
     },
     myStarStyle: {
         color: colors.star,
@@ -105,7 +108,7 @@ export default StyleSheet.create({
         fontSize: 10,
         marginLeft: 6,
         marginTop: 2,
-        fontWeight: "bold"
+        fontFamily:"OpenSans-Bold"
     },
     price: {
         marginLeft: 6,
@@ -113,9 +116,9 @@ export default StyleSheet.create({
         fontWeight: "bold"
     },
     lottie: {
-        width: 70,
+        width: 60,
         position: 'absolute',
-        bottom: 1,
+        bottom: 3,
         right: 4,
         transform: [{ rotate: '270deg' }]
     },

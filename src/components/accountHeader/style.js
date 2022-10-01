@@ -13,7 +13,7 @@ export default StyleSheet.create({
     headerTitle: {
         color: colors.black,
         marginLeft: 5,
-        fontWeight: "bold",
+        fontFamily: "OpenSans-SemiBold",
         fontSize: 20
     },
 })

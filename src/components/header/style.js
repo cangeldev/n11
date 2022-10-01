@@ -13,12 +13,14 @@ export default StyleSheet.create({
         backgroundColor: colors.white,
         borderRadius: 30,
         marginVertical: 10,
-        fontSize: 16,
+        fontSize: 15,
         color: colors.black,
         width: windowWidth - 70,
         height: 40,
         paddingLeft: 64,
-        paddingRight: 35
+        paddingRight: 35,
+        fontFamily: "OpenSans_SemiCondensed-Medium",
+        paddingBottom:10
     },
     notificationsView:
     {

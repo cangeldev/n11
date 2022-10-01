@@ -13,13 +13,14 @@ export default StyleSheet.create({
         alignItems: "center",
     },
     title: {
-        fontWeight: "bold",
+        fontFamily: "OpenSans-SemiBold",
         fontSize: 18,
         color: colors.black
     },
     titleText: {
         marginLeft: 5,
-        color: colors.grey
+        color: colors.grey,
+        fontFamily: "OpenSans-Regular",
     },
     titleContent: {
         flexDirection: "row",
@@ -29,7 +30,8 @@ export default StyleSheet.create({
         color: colors.red,
         marginLeft: 5,
         fontWeight: "300",
-        fontSize: 13
+        fontSize: 12,
+        fontFamily: "OpenSans-Light",
     },
     contentView: {
         backgroundColor: "#f8f8f8",

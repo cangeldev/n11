@@ -14,7 +14,7 @@ export default function Products({ title }) {
         <Text style={style.text}>Tümünü Gör </Text>
         <IconE
           name="chevron-small-right"
-          size={22}
+          size={21}
           color={colors.statusBarBackground}
         />
       </View>

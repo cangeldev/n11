@@ -19,9 +19,9 @@ export default function ListScreenCard({ title, textOne, textTwo, icon }) {
             </View>
             <View style={style.contentView}>
                 <IconI style={style.contentIcon} name={icon} color={"#e3e3e3"} size={60} />
-                <Text style={{ fontWeight: "700" }}>{textOne}</Text>
-                <Text style={{ color: "#939090", fontWeight: "300" }}>{textTwo}</Text>
-                <Text style={{ color: "#296cae", marginTop: 5 }}>Haydi ilk ürününü hemen ekle!</Text>
+                <Text style={{ fontFamily: "OpenSans-Bold" }}>{textOne}</Text>
+                <Text style={{ color: "#939090", fontFamily: "OpenSans-Regular" }}>{textTwo}</Text>
+                <Text style={{ color: "#296cae", marginTop: 5, fontFamily: "OpenSans-Medium" }}>Haydi ilk ürününü hemen ekle!</Text>
             </View>
         </View>
     )

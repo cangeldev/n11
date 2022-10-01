@@ -10,7 +10,7 @@ export default function AccountScreen() {
   return (
     <View style={style.container}>
       <ScrollView>
-      <AccountHeader title={"Hesabım"}/>
+        <AccountHeader title={"Hesabım"} />
         <View style={style.accountView}>
           <View>
             <Text style={style.text}>Can Gel {"\n"}can.gel@hotmail.com</Text>

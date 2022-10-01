@@ -21,7 +21,7 @@ export default StyleSheet.create({
     },
     linearText: {
         color: colors.navyBlue,
-        fontWeight: "bold"
+        fontFamily: "OpenSans_SemiCondensed-SemiBold"
     },
     linearView: {
         flexDirection: "row",
@@ -31,7 +31,7 @@ export default StyleSheet.create({
         marginTop: 10,
         marginBottom: 15,
         color: colors.blue,
-        fontWeight: "bold"
+        fontFamily: "OpenSans-Bold"
     },
     linearViewIcon: {
         marginLeft: 8,

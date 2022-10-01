@@ -21,11 +21,12 @@ export default function Container() {
           tabBarHideOnKeyboard: true,
           headerShown: false,
           tabBarActiveTintColor: colors.tabBarIconBackground,
-          tabBarInactiveTintColor: colors.grey,
+          tabBarInactiveTintColor: colors.tabBarIconBackground,
           tabBarLabelStyle: {
             fontSize: 12,
             marginTop: 2,
             marginBottom: 4,
+            fontFamily: "OpenSans-Medium"
           },
           tabBarStyle: {
             backgroundColor: colors.white,
@@ -35,20 +36,11 @@ export default function Container() {
             paddingTop: 5,
           },
         }}>
-        <Tab.Screen name="Sepetim" component={ShopingCartScreen}
-          options={{
-            tabBarIcon: ({ color, focused }) => focused ?
-              (<IconI name="cart" color={color} size={26} />) :
-              (<IconI name="cart-outline" color={color} size={26} />),
-          }} />
-
-
         <Tab.Screen name="Ana Sayfa" component={HomeScreen}
           options={{
-
             tabBarIcon: ({ color, focused }) => focused ?
-              <Image source={HomeFocused} style={{ width: 22, height: 22,tintColor:color }} /> :
-              <Image source={Home} style={{width:22,height:22,tintColor:color}} />,
+              <Image source={HomeFocused} style={{ width: 22, height: 22, tintColor: color }} /> :
+              <Image source={Home} style={{ width: 22, height: 22, tintColor: color }} />,
           }} />
         <Tab.Screen name="Kategoriler" component={CategoryScreen}
           options={{
@@ -56,7 +48,12 @@ export default function Container() {
               (<IconI name="grid" color={color} size={24} />) :
               (<IconI name="grid-outline" color={color} size={24} />),
           }} />
-
+        <Tab.Screen name="Sepetim" component={ShopingCartScreen}
+          options={{
+            tabBarIcon: ({ color, focused }) => focused ?
+              (<IconI name="cart" color={color} size={26} />) :
+              (<IconI name="cart-outline" color={color} size={26} />),
+          }} />
         <Tab.Screen name="Listelerim" component={ListsScreen}
           options={{
             tabBarIcon: ({ color, focused }) => focused ?
@@ -66,8 +63,8 @@ export default function Container() {
         <Tab.Screen name="Hesabım" component={AccountScreen}
           options={{
             tabBarIcon: ({ color, focused }) => focused ?
-              <Image source={UserFocused} style={{ width: 23, height: 23,tintColor:color }} /> :
-              <Image source={User} style={{ width: 23, height: 23,tintColor:color }} />,
+              <Image source={UserFocused} style={{ width: 22, height: 22, tintColor: color }} /> :
+              <Image source={User} style={{ width: 22, height: 22, tintColor: color }} />,
           }} />
       </Tab.Navigator>
     </NavigationContainer>

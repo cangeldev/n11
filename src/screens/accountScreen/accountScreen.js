@@ -7,7 +7,7 @@ import AccountButton from 'components/accountButton/accountButton';
 import { list } from 'utils/helper';
 import AccountHeader from 'components/accountHeader/accountHeader';
 import FocusAwareStatusBar from 'components/focusAwareStatusBar/focusAwareStatusBar';
-export default function AccountScreen() {
+export default function AccountScreen({navigation}) {
   return (
     <View style={style.container}>
       <ScrollView>
@@ -17,7 +17,7 @@ export default function AccountScreen() {
           <View>
             <Text style={style.text}>Can Gel {"\n"}can.gel@hotmail.com</Text>
           </View>
-          <IconI name="settings-outline" color={colors.grey} size={24} />
+          <IconI name="settings-outline" color={colors.grey} size={24} onPress={()=>navigation.navigate("AccountSettingsPages")} />
         </View>
         <View style={style.listView}>
           {

@@ -1,4 +1,4 @@
-import { View, StatusBar, ScrollView, Image } from 'react-native'
+import { View, ScrollView, Image } from 'react-native'
 import React from 'react'
 import style from './style'
 import colors from 'assets/colors/colors'
@@ -11,12 +11,12 @@ import HeaderMenuCard from 'components/cards/headerMenuCard/headerMenuCard'
 import Products from 'components/cards/productsCard/products'
 import Marka from 'components/cards/markaCard/marka'
 import FocusAwareStatusBar from 'components/focusAwareStatusBar/focusAwareStatusBar'
-export default function HomeScreen() {
+export function HomeScreen() {
     return (
         <View style={style.container}>
             <ScrollView stickyHeaderIndices={[0]}>
                 <Header />
-                <FocusAwareStatusBar barStyle="light-content" backgroundColor={colors.statusBarBackground} />                
+                <FocusAwareStatusBar barStyle="light-content" backgroundColor={colors.statusBarBackground} />
                 <Adress />
                 <View style={style.headerMenu}>
                     <HeaderMenuCard path={Kupon} text={"Kuponlar"} />

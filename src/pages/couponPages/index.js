@@ -1,0 +1,1 @@
+export {CouponPages} from "./couponPages"

@@ -4,7 +4,7 @@ import FocusAwareStatusBar from 'components/focusAwareStatusBar/focusAwareStatus
 import colors from 'assets/colors/colors'
 import style from './style'
 import CouponButton from 'components/couponButton/couponButton'
-export default function CouponPages() {
+export  function CouponPages() {
     return (
         <View style={style.container}>
             <View style={style.header}>

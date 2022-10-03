@@ -7,7 +7,7 @@ import IconO from "react-native-vector-icons/Octicons";
 import { L1, L26 } from 'assets'
 import colors from 'assets/colors/colors'
 import FocusAwareStatusBar from 'components/focusAwareStatusBar/focusAwareStatusBar'
-export default function AccountSettingsPages() {
+export  function AccountSettingsPages() {
   const [isEnabled, setIsEnabled] = useState(false);
   const toggleSwitch = () => setIsEnabled(previousState => !previousState);
   return (

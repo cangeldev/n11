@@ -1,4 +1,4 @@
-import { View, Text, Image, StatusBar } from 'react-native'
+import { View, Text, Image } from 'react-native'
 import React from 'react'
 import style from './style'
 import AccountHeader from 'components/accountHeader/accountHeader'
@@ -8,7 +8,7 @@ import IconO from "react-native-vector-icons/Octicons";
 import LinearGradient from 'react-native-linear-gradient';
 import ListScreenCard from 'components/cards/listScreenCard/listScreenCard'
 import FocusAwareStatusBar from 'components/focusAwareStatusBar/focusAwareStatusBar'
-export default function ListsScreen() {
+export function ListsScreen() {
     return (
         <View style={style.container}>
             <AccountHeader title={"Listelerim"} />

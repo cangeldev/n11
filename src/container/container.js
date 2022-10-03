@@ -2,19 +2,13 @@ import { Image } from 'react-native'
 import React from 'react'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
-import CategoryScreen from 'screens/categoryScreen/categoryScreen';
-import ShopingCartScreen from 'screens/shopingCartScreen/shopingCartScreen';
-import ListsScreen from 'screens/listsScreen/listsScreen';
-import AccountScreen from 'screens/accountScreen/accountScreen';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import colors from 'assets/colors/colors';
 import IconI from "react-native-vector-icons/Ionicons";
 import { Home, HomeFocused, User, UserFocused } from 'assets'
 import SystemNavigationBar from 'react-native-system-navigation-bar';
-import HomeScreen from 'screens/homeScreen/homeScreen';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import AccountSettingsPages from 'pages/accountSettingsPages/accountSettingsPages';
-import CouponPages from 'pages/couponPages/couponPages';
-import MyOrders from 'pages/myOrders/myOrders';
+import { AccountSettingsPages, CouponPages, MyOrders } from 'pages';
+import { AccountScreen, CategoryScreen, HomeScreen, ListsScreen, ShopingCartScreen } from 'screens';
 SystemNavigationBar.setNavigationColor(colors.white);
 export default function Container() {
   const Tab = createBottomTabNavigator();
@@ -37,12 +31,6 @@ export default function Container() {
             borderTopColor: colors.fafafa,
           },
         }}>
-          <Tab.Screen name="Hesabım" component={AccountStackScreen}
-          options={{
-            tabBarIcon: ({ color, focused }) => focused ?
-              <Image source={UserFocused} style={{ width: 22, height: 22, tintColor: color }} /> :
-              <Image source={User} style={{ width: 22, height: 22, tintColor: color }} />,
-          }} />
         <Tab.Screen name="Ana Sayfa" component={HomeScreen}
           options={{
             tabBarIcon: ({ color, focused }) => focused ?
@@ -67,7 +55,12 @@ export default function Container() {
               (<IconI name="heart-sharp" color={color} size={26} />) :
               (<IconI name="heart-outline" color={color} size={26} />),
           }} />
-        
+        <Tab.Screen name="Hesabım" component={AccountStackScreen}
+          options={{
+            tabBarIcon: ({ color, focused }) => focused ?
+              <Image source={UserFocused} style={{ width: 22, height: 22, tintColor: color }} /> :
+              <Image source={User} style={{ width: 22, height: 22, tintColor: color }} />,
+          }} />
       </Tab.Navigator>
     </NavigationContainer>
   )
@@ -76,9 +69,20 @@ const AccountStack = createNativeStackNavigator();
 function AccountStackScreen() {
   return (
     <AccountStack.Navigator screenOptions={{ headerShown: false }}>
-      <AccountStack.Screen name="AccountScreen" component={AccountScreen} />
-      <AccountStack.Screen options={{ title: "Hesap Ayarlarım", headerShown: "true" }} name="AccountSettingsPages" component={AccountSettingsPages} />
-      <AccountStack.Screen options={{ title: "Kuponlarım", headerShown: "true" }} name="CouponPages" component={CouponPages} />
-      <AccountStack.Screen options={{ title: "Siparişlerim", headerShown: "true" }} name="MyOrders" component={MyOrders} /> 
+      <AccountStack.Screen
+        name="AccountScreen"
+        component={AccountScreen} />
+      <AccountStack.Screen
+        options={{ title: "Hesap Ayarlarım", headerShown: "true" }}
+        name="AccountSettingsPages"
+        component={AccountSettingsPages} />
+      <AccountStack.Screen
+        options={{ title: "Kuponlarım", headerShown: "true" }}
+        name="CouponPages"
+        component={CouponPages} />
+      <AccountStack.Screen
+        options={{ title: "Siparişlerim", headerShown: "true" }}
+        name="MyOrders"
+        component={MyOrders} />
     </AccountStack.Navigator>);
 }

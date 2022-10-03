@@ -7,7 +7,7 @@ import AccountButton from 'components/accountButton/accountButton';
 import { list } from 'utils/helper';
 import AccountHeader from 'components/accountHeader/accountHeader';
 import FocusAwareStatusBar from 'components/focusAwareStatusBar/focusAwareStatusBar';
-export default function AccountScreen({ navigation }) {
+export  function AccountScreen({ navigation }) {
   return (
     <View style={style.container}>
       <ScrollView>

@@ -9,7 +9,7 @@ export default StyleSheet.create({
         paddingHorizontal: 10,
         height: 60,
         elevation: 5,
-        paddingRight:25
+        paddingRight: 25
     },
     headerTitle: {
         color: colors.black,

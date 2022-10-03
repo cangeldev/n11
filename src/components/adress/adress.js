@@ -13,11 +13,11 @@ export default function Adress() {
           size={20}
           color={colors.black}
           style={{ marginLeft: 8 }} />
-          <Text style={[style.adressTxt,{fontFamily:"OpenSans_SemiCondensed-Bold", color: colors.black,}]}>
+        <Text style={[style.adressTxt, { fontFamily: "OpenSans_SemiCondensed-Bold", color: colors.black, }]}>
           Düzce
         </Text>
         <Text style={style.adressTxt}>
-         -  Kirazlı Yeni Mahalle / Merkez / Düzce
+          -  Kirazlı Yeni Mahalle / Merkez / Düzce
         </Text>
         <IconE
           name="chevron-small-right"

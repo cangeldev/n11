@@ -12,7 +12,7 @@ export default StyleSheet.create({
         fontSize: 14,
         color: colors.grey,
         marginLeft: 6,
-        fontFamily:"OpenSans_SemiCondensed-Regular"
+        fontFamily: "OpenSans_SemiCondensed-Regular"
     },
     iconE: {
         position: "absolute",

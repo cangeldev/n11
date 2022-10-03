@@ -1,4 +1,4 @@
-import { L1, L10, L11, L12, L13, L14, L15, L16, L17, L18, L19, L2, L20, L21, L3, L4, L5, L6, L7, L8, L9 } from 'assets';
+import { L1, L10, L11, L12, L13, L14, L15, L16, L17, L18, L19, L2, L20, L21, L22, L23, L24, L25, L26, L3, L4, L5, L6, L7, L8, L9 } from 'assets';
 import { M1, M10, M12, M13, M14, M15, M16, M17, M18, M19, M2, M20, M21, M22, M23, M24, M25, M3, M4, M5, M6, M7, M8, M9 } from 'assets'
 import { Adidas, Flo, Hasbro, Mavi, Nivea, Nike } from 'assets'
 export const list = [
@@ -23,7 +23,12 @@ export const list = [
     { key: 19, value: L18, text: "Canlı Destek", colorsPath: "#a2cd5a" },
     { key: 20, value: L19, text: "Geri Bildirim", colorsPath: "#008080" },
     { key: 21, value: L20, text: "Yardım", colorsPath: "#ffcc99" },
-    { key: 22, value: L21, text: "Hakkımızda", colorsPath: "#ba55d3" },
+    { key: 22, value: L21, text: "Hakkımızda", colorsPath: "#ee9a49" },
+    { key: 23, value: L22, text: "Adreslerim", colorsPath: "#087EB0" },
+    { key: 24, value: L23, text: "Şifre Değiştir", colorsPath: "#ee2c2c" },
+    { key: 25, value: L24, text: "Ödeme Seçeneklerim", colorsPath: "#ba55d3" },
+    { key: 26, value: L25, text: "Kullanıcı Sözleşmeleri", colorsPath: "#8b3e2f" },
+    { key: 27, value: L26, text: "Çıkış Yap", colorsPath: "#087EB0" },
 ]
 
 export const categoryListe = [
@@ -71,13 +76,4 @@ export const menuImages = [
     { id: 6, image: M6, name: "Mücevher & Saat", },
     { id: 7, image: M7, name: "Spor & Outdoor", },
     { id: 8, image: M8, name: "Kitap & Hobi" }
-]
-export const iconColors = [
-    { colorsPath: "#ffff" },
-    { colorsPath: "#ffff" },
-    { colorsPath: "#ffff" },
-    { colorsPath: "#ffff" },
-    { colorsPath: "#ffff" },
-
-
 ]

@@ -8,7 +8,8 @@ export default StyleSheet.create({
         justifyContent: "space-between",
         paddingHorizontal: 10,
         height: 60,
-        elevation: 5
+        elevation: 5,
+        paddingRight:25
     },
     headerTitle: {
         color: colors.black,

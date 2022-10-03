@@ -35,6 +35,12 @@ export default function Container() {
             borderTopColor: colors.fafafa,
           },
         }}>
+          <Tab.Screen name="Hesabım" component={AccountStackScreen}
+          options={{
+            tabBarIcon: ({ color, focused }) => focused ?
+              <Image source={UserFocused} style={{ width: 22, height: 22, tintColor: color }} /> :
+              <Image source={User} style={{ width: 22, height: 22, tintColor: color }} />,
+          }} />
         <Tab.Screen name="Ana Sayfa" component={HomeScreen}
           options={{
             tabBarIcon: ({ color, focused }) => focused ?
@@ -59,12 +65,7 @@ export default function Container() {
               (<IconI name="heart-sharp" color={color} size={26} />) :
               (<IconI name="heart-outline" color={color} size={26} />),
           }} />
-        <Tab.Screen name="Hesabım" component={AccountStackScreen}
-          options={{
-            tabBarIcon: ({ color, focused }) => focused ?
-              <Image source={UserFocused} style={{ width: 22, height: 22, tintColor: color }} /> :
-              <Image source={User} style={{ width: 22, height: 22, tintColor: color }} />,
-          }} />
+        
       </Tab.Navigator>
     </NavigationContainer>
   )

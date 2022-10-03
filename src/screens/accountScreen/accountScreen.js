@@ -1,4 +1,4 @@
-import { View, Text, ScrollView, StatusBar } from 'react-native'
+import { View, Text, ScrollView } from 'react-native'
 import React from 'react'
 import style from './style'
 import IconI from "react-native-vector-icons/Ionicons";
@@ -7,7 +7,7 @@ import AccountButton from 'components/accountButton/accountButton';
 import { list } from 'utils/helper';
 import AccountHeader from 'components/accountHeader/accountHeader';
 import FocusAwareStatusBar from 'components/focusAwareStatusBar/focusAwareStatusBar';
-export default function AccountScreen({navigation}) {
+export default function AccountScreen({ navigation }) {
   return (
     <View style={style.container}>
       <ScrollView>
@@ -17,7 +17,7 @@ export default function AccountScreen({navigation}) {
           <View>
             <Text style={style.text}>Can Gel {"\n"}can.gel@hotmail.com</Text>
           </View>
-          <IconI name="settings-outline" color={colors.grey} size={24} onPress={()=>navigation.navigate("AccountSettingsPages")} />
+          <IconI name="settings-outline" color={colors.black} size={24} onPress={() => navigation.navigate("AccountSettingsPages")} />
         </View>
         <View style={style.listView}>
           {

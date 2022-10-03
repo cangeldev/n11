@@ -4,7 +4,7 @@ export default StyleSheet.create({
     container: {
         flexDirection: "row",
         alignItems: "center",
-        marginVertical: 8,
+        marginVertical: 10,
     },
     image: {
         marginRight: 15,

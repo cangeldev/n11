@@ -15,4 +15,5 @@ export default {
     textColor: "#191919",
     navyBlue: "#2e4d92",
     blue: "#4782ec",
+    backGroundlightGrey: "#f0f0f0",
 }

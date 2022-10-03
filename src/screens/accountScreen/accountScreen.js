@@ -21,7 +21,7 @@ export default function AccountScreen({ navigation }) {
         </View>
         <View style={style.listView}>
           {
-            list.slice(0, 10).map((item) => <AccountButton key={item.key} category={item} />)
+            list.slice(0, 10).map((item) => <AccountButton key={item.key} category={item}/>)
           }
         </View>
         <Text style={style.title}>Popüler Sayfalar</Text>

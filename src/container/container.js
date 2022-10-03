@@ -13,6 +13,7 @@ import SystemNavigationBar from 'react-native-system-navigation-bar';
 import HomeScreen from 'screens/homeScreen/homeScreen';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import AccountSettingsPages from 'pages/accountSettingsPages/accountSettingsPages';
+import CouponPages from 'pages/couponPages/couponPages';
 SystemNavigationBar.setNavigationColor(colors.white);
 export default function Container() {
   const Tab = createBottomTabNavigator();
@@ -76,5 +77,6 @@ function AccountStackScreen() {
     <AccountStack.Navigator screenOptions={{ headerShown: false }}>
       <AccountStack.Screen name="AccountScreen" component={AccountScreen} />
       <AccountStack.Screen options={{ title: "Hesap Ayarlarım", headerShown: "true" }} name="AccountSettingsPages" component={AccountSettingsPages} />
+      <AccountStack.Screen options={{ title: "Kuponlarım", headerShown: "true" }} name="CouponPages" component={CouponPages} />
     </AccountStack.Navigator>);
 }

@@ -2,8 +2,8 @@ import { L1, L10, L11, L12, L13, L14, L15, L16, L17, L18, L19, L2, L20, L21, L22
 import { M1, M10, M12, M13, M14, M15, M16, M17, M18, M19, M2, M20, M21, M22, M23, M24, M25, M3, M4, M5, M6, M7, M8, M9 } from 'assets'
 import { Adidas, Flo, Hasbro, Mavi, Nivea, Nike } from 'assets'
 export const list = [
-    { key: 1, value: L1, text: "Kuponlarım", colorsPath: "#ee2c2c" ,navigationPath:"CouponPages"},
-    { key: 2, value: L2, text: "Siparişlerim", colorsPath: "#8b658b",navigationPath:"MyOrders" },
+    { key: 1, value: L1, text: "Kuponlarım", colorsPath: "#ee2c2c", navigationPath: "CouponPages" },
+    { key: 2, value: L2, text: "Siparişlerim", colorsPath: "#8b658b", navigationPath: "MyOrders" },
     { key: 3, value: L3, text: "İstek Listelerim/Favorilerim", colorsPath: "#8b4513" },
     { key: 4, value: L4, text: "Yorumlarım", colorsPath: "#00008b" },
     { key: 5, value: L5, text: "Paylaş Kazan", colorsPath: "#8b7b8b" },
@@ -76,4 +76,18 @@ export const menuImages = [
     { id: 6, image: M6, name: "Mücevher & Saat", },
     { id: 7, image: M7, name: "Spor & Outdoor", },
     { id: 8, image: M8, name: "Kitap & Hobi" }
+]
+export const date = [
+    "Son 30 Gün",
+    "Son 6 Ay",
+    "2022",
+    "2021",
+    "2020",
+    "2019",
+    "2018",
+    "2017",
+    "2016",
+    "2015",
+    "2014",
+    "2013"
 ]

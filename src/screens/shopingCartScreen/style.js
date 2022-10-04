@@ -24,9 +24,9 @@ export default StyleSheet.create({
         color: colors.black,
         fontSize: 16,
         marginTop: 23,
-        marginBottom:4,
+        marginBottom: 4,
         letterSpacing: 1,
-        fontFamily:"OpenSans-Bold",
+        fontFamily: "OpenSans-Bold",
     },
     lottie: {
         width: 180
@@ -40,17 +40,17 @@ export default StyleSheet.create({
         justifyContent: "center"
     },
     touchText: {
-        color: colors.white,       
+        color: colors.white,
         fontSize: 15,
         letterSpacing: 1,
-        fontFamily:"OpenSans-Bold"
+        fontFamily: "OpenSans-Bold"
     },
     text: {
         color: colors.black,
         fontSize: 16,
         marginTop: 18,
         marginLeft: 15,
-        fontFamily:"OpenSans-Medium"
+        fontFamily: "OpenSans-Medium"
     },
     productsView: {
         borderTopWidth: 1,

@@ -56,5 +56,12 @@ export default StyleSheet.create({
         marginTop: 10,
         borderTopColor: colors.lightGrey,
         backgroundColor: colors.white
+    },
+    contentView: {
+        backgroundColor: colors.white,
+        height: 387,
+        marginVertical: 10,
+        marginHorizontal: 10,
+        overflow: "hidden"
     }
 })

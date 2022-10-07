@@ -7,7 +7,7 @@ import colors from 'assets/colors/colors';
 import IconI from "react-native-vector-icons/Ionicons";
 import { Home, HomeFocused, User, UserFocused } from 'assets'
 import SystemNavigationBar from 'react-native-system-navigation-bar';
-import { AccountSettingsPages, CouponPages, MyOrders } from 'pages';
+import { AccountSettingsPages, CouponPages, MyComments, MyOrders } from 'pages';
 import { AccountScreen, CategoryScreen, HomeScreen, ListsScreen, ShopingCartScreen } from 'screens';
 SystemNavigationBar.setNavigationColor(colors.white);
 export default function Container() {
@@ -84,5 +84,9 @@ function AccountStackScreen() {
         options={{ title: "Siparişlerim", headerShown: "true" }}
         name="MyOrders"
         component={MyOrders} />
+      <AccountStack.Screen
+        options={{ title: "Yorumlarım", headerShown: "true" }}
+        name="MyComments"
+        component={MyComments} />
     </AccountStack.Navigator>);
 }

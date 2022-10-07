@@ -24,7 +24,7 @@ export function MyOrders() {
         <Text style={style.orderTextInfo}>Siparişiniz{"\n"}bulunmuyor.</Text>
         <Text style={style.orderText}>Hemen alışveriş yapıp siparişlerinizi{"\n"}bu sayfadan takip edebilirsiniz.</Text>
       </View>
-      <View style={{ backgroundColor: colors.white, height: 387, marginVertical: 10, marginHorizontal: 10, overflow: "hidden" }}>
+      <View style={style.contentView}>
         <Text style={style.productsText}>Bu Ürünler İlginizi Çekebilir</Text>
         <View style={style.productsView}>
           <RecommendedProducts />

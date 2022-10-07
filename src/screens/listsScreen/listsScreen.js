@@ -32,7 +32,7 @@ export function ListsScreen() {
                 title={"Alarm Listem"}
                 icon={"notifications"}
                 textOne={"Fiyat Alarmı Kurun Fırsatları Kaçırmayın."}
-                textTwo={"Beğendiğiniz ürün için fiyat belirleyip alarm kurun, \n ürün beliriediğiniz fiyata gelince haberiniz olsun."} />
+                textTwo={"Beğendiğiniz ürün için fiyat belirleyip alarm kurun, \n ürün belirlediğiniz fiyata gelince haberiniz olsun."} />
         </View>
     )
 }

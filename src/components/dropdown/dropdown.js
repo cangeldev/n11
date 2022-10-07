@@ -7,7 +7,7 @@ export default function Dropdown() {
     return (
         <SelectDropdown
             defaultButtonText={"Son 30 Gün"}
-            dropdownStyle={{ height: 580, width: 110, marginLeft: 12 }}
+            dropdownStyle={{ height: 600, width: 110, marginLeft: 12 }}
             buttonStyle={{ width: 130, backgroundColor: colors.white }}
             buttonTextStyle={{ color: colors.grey, fontSize: 17 }}
             data={date}

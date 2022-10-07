@@ -4,8 +4,8 @@ import { Adidas, Flo, Hasbro, Mavi, Nivea, Nike } from 'assets'
 export const list = [
     { key: 1, value: L1, text: "Kuponlarım", colorsPath: "#ee2c2c", navigationPath: "CouponPages" },
     { key: 2, value: L2, text: "Siparişlerim", colorsPath: "#8b658b", navigationPath: "MyOrders" },
-    { key: 3, value: L3, text: "İstek Listelerim/Favorilerim", colorsPath: "#8b4513" },
-    { key: 4, value: L4, text: "Yorumlarım", colorsPath: "#00008b" },
+    { key: 3, value: L3, text: "İstek Listelerim/Favorilerim", colorsPath: "#8b4513", navigationPath: "Listelerim" },
+    { key: 4, value: L4, text: "Yorumlarım", colorsPath: "#00008b", navigationPath: "MyComments" },
     { key: 5, value: L5, text: "Paylaş Kazan", colorsPath: "#8b7b8b" },
     { key: 6, value: L6, text: "Bildirimlerim", colorsPath: "#000" },
     { key: 7, value: L7, text: "Garajım", colorsPath: "#ee9a49" },

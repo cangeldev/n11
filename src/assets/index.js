@@ -6,6 +6,7 @@ export const Reklam = require("./images/otherImages/reklam.jpg");
 export const HeaderIcon = require("./images/otherImages/headerIcon.png");
 export const esya = require("./images/otherImages/esya.png");
 export const shoping = require("./images/otherImages/shoping.png");
+export const delivery = require("./images/otherImages/delivery.png");
 export const Kupon = require("./images/headerMenu/kuponlar.png");
 export const Saatlik = require("./images/headerMenu/saatlik.png");
 export const Kampanya = require("./images/headerMenu/kampanyalar.png");

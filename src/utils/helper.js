@@ -1,4 +1,4 @@
-import { L1, L10, L11, L12, L13, L14, L15, L16, L17, L18, L19, L2, L20, L21, L22, L23, L24, L25, L26, L3, L4, L5, L6, L7, L8, L9 } from 'assets';
+import { Info1, Info2, Info3, Info4, L1, L10, L11, L12, L13, L14, L15, L16, L17, L18, L19, L2, L20, L21, L22, L23, L24, L25, L26, L3, L4, L5, L6, L7, L8, L9 } from 'assets';
 import { M1, M10, M12, M13, M14, M15, M16, M17, M18, M19, M2, M20, M21, M22, M23, M24, M25, M3, M4, M5, M6, M7, M8, M9 } from 'assets'
 import { Adidas, Flo, Hasbro, Mavi, Nivea, Nike } from 'assets'
 export const list = [
@@ -6,8 +6,8 @@ export const list = [
     { key: 2, value: L2, text: "Siparişlerim", colorsPath: "#8b658b", navigationPath: "MyOrders" },
     { key: 3, value: L3, text: "İstek Listelerim/Favorilerim", colorsPath: "#8b4513", navigationPath: "Listelerim" },
     { key: 4, value: L4, text: "Yorumlarım", colorsPath: "#00008b", navigationPath: "MyComments" },
-    { key: 5, value: L5, text: "Paylaş Kazan", colorsPath: "#8b7b8b" },
-    { key: 6, value: L6, text: "Bildirimlerim", colorsPath: "#000" },
+    { key: 5, value: L5, text: "Paylaş Kazan", colorsPath: "#8b7b8b", navigationPath: "ShareWinPages" },
+    { key: 6, value: L6, text: "Bildirimlerim", colorsPath: "#000", navigationPath: "ShareWinPages" },
     { key: 7, value: L7, text: "Garajım", colorsPath: "#ee9a49" },
     { key: 8, value: L8, text: "Pet11'e Kayıtlı Dostlarım", colorsPath: "#bc8f8f" },
     { key: 9, value: L4, text: "Ürün Yorumlarım", colorsPath: "#32cd32" },
@@ -90,4 +90,28 @@ export const date = [
     "2015",
     "2014",
     "2013"
+]
+export const infoList = [
+    {
+        id: 1,
+        value: Info1,
+        title1: "Ürünü Seç", text1: 'Beğendiğin ürünü\npaylaşmak için\n"Paylaş" butonuna tıkla.',
+        title2: "Paylaş Kazan", text2: 'İndirim kuponu kazanmak\niçin "Paylaş Kazan"\nseçeneğini seç.'
+    },
+    {
+        id: 2,
+        value: Info2,
+        title1: "Arkadaşlarınla Paylaş", text1: 'Ürünü sosyal medyadan\nveya mesaj atarak\narkadaşlarınla paylaş.',
+        title2: "Kazancını Gör", text2: '"Paylaş Kazan" sayfasından\nkazancını takip et. Daha çok\npaylaş, daha çok kazan.'
+    }, {
+        id: 3,
+        value: Info3,
+        title1: "Listeni Yap", text1: 'Beğendiğin ürünleri seç ve\nlistene ekle. İstersen\nyeni listeler oluştur.',
+        title2: "Paylaşıma Aç", text2: 'Paylaşmak için listeni açık\nduruma getir, "Paylaş Kazan"\nseçeneğini seç.'
+    }, {
+        id: 4,
+        value: Info4,
+        title1: "Arkadaşlarınla Paylaş", text1: 'Listeni sosyal medyadan\nveya mesaj atarak\narkadaşlarınla paylaş.',
+        title2: "Kazancını Gör", text2: '"Paylaş Kazan" sayfasından\nkazancını takip et. Daha çok\npaylaş, daha çok kazan.'
+    },
 ]

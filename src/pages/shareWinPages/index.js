@@ -1,0 +1,1 @@
+export {ShareWinPages} from "./shareWinPages"

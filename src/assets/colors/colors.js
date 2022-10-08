@@ -16,4 +16,5 @@ export default {
     navyBlue: "#2e4d92",
     blue: "#4782ec",
     backGroundlightGrey: "#f0f0f0",
+    arsenic: "#3B444B",
 }

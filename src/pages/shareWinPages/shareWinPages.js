@@ -4,9 +4,11 @@ import FocusAwareStatusBar from 'components/focusAwareStatusBar/focusAwareStatus
 import colors from 'assets/colors/colors'
 import { advertising } from 'assets'
 import style from './style'
-import { infoList } from 'utils/helper'
+import { infoCollapsible, infoList, rulesList } from 'utils/helper'
 import InfoCard from 'components/cards/infoCard/infoCard'
 import TouchButton from 'components/button/button'
+import CollapsibleViewCard from 'components/cards/collapsibleViewCard/collapsibleViewCard'
+import RulesCard from 'components/cards/rulesCard/rulesCard'
 export function ShareWinPages() {
     return (
         <ScrollView style={{ flex: 1, backgroundColor: colors.white }} showsVerticalScrollIndicator={false}>
@@ -26,6 +28,20 @@ export function ShareWinPages() {
                 infoList.slice(2, 4).map((item) => <InfoCard key={item.id} menu={item} />)
             }
             <TouchButton title={"Listelere Git"} />
+            <View style={style.infoView}>
+                <Text style={style.infoViewTitle}>Sıkça Sorulan Kampanya Soruları</Text>
+                <Text style={style.infoViewText}>Kampanya hakkındaki bütün detaylar ve aklınıza{"\n"}takılabilecek soruların cevaplarına aşağıdan{"\n"}ulaşabilirsiniz.</Text>
+            </View>
+            <View style={style.card}>
+                {
+                    infoCollapsible.map((item) => <CollapsibleViewCard info={item} />)
+                }
+            </View>
+            <View style={style.rulesCard}>
+                {
+                    rulesList.map((item) => <RulesCard rules={item} />)
+                }
+            </View>
         </ScrollView>
     )
 }

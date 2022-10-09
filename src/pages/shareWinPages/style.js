@@ -26,4 +26,31 @@ export default StyleSheet.create({
         width: "90%",
         alignSelf: "center",
     },
+    infoView: {
+        backgroundColor: colors.backGroundlightGrey,
+        alignItems: "center",
+        marginTop: 20,
+        paddingVertical: 15
+    },
+    infoViewTitle: {
+        fontFamily: "OpenSans-Bold",
+        fontSize: 18,
+        color: colors.black,
+        marginBottom: 5
+    },
+    infoViewText: {
+        color: colors.grey,
+        textAlign: "center",
+        lineHeight: 20
+    },
+    card: {
+        backgroundColor: colors.backGroundlightGrey,
+        paddingHorizontal: 10,
+        paddingBottom: 15
+    },
+    rulesCard: {
+        paddingBottom: 25,
+        backgroundColor: colors.backGroundlightGrey,
+        paddingTop: 5
+    }
 })

@@ -10,7 +10,7 @@ import SystemNavigationBar from 'react-native-system-navigation-bar';
 import { AccountSettingsPages, CouponPages, MyComments, MyOrders, ShareWinPages } from 'pages';
 import { AccountScreen, CategoryScreen, HomeScreen, ListsScreen, ShopingCartScreen } from 'screens';
 SystemNavigationBar.setNavigationColor(colors.white);
-export default function Container() {
+export function Container() {
   const Tab = createBottomTabNavigator();
   return (
     <NavigationContainer>
@@ -34,32 +34,88 @@ export default function Container() {
         <Tab.Screen name="Ana Sayfa" component={HomeScreen}
           options={{
             tabBarIcon: ({ color, focused }) => focused ?
-              <Image source={HomeFocused} style={{ width: 22, height: 22, tintColor: color }} /> :
-              <Image source={Home} style={{ width: 22, height: 22, tintColor: color }} />,
+              <Image
+                source={HomeFocused}
+                style={{
+                  width: 22,
+                  height: 22,
+                  tintColor: color
+                }} /> :
+              <Image
+                source={Home}
+                style={{
+                  width: 22,
+                  height: 22,
+                  tintColor: color
+                }} />,
           }} />
-        <Tab.Screen name="Kategoriler" component={CategoryScreen}
+        <Tab.Screen
+          name="Kategoriler"
+          component={CategoryScreen}
           options={{
             tabBarIcon: ({ color, focused }) => focused ?
-              (<IconI name="grid" color={color} size={24} />) :
-              (<IconI name="grid-outline" color={color} size={24} />),
+              (<IconI
+                name="grid"
+                color={color}
+                size={24}
+              />) :
+              (<IconI
+                name="grid-outline"
+                color={color}
+                size={24}
+              />),
           }} />
-        <Tab.Screen name="Sepetim" component={ShopingCartScreen}
+        <Tab.Screen
+          name="Sepetim"
+          component={ShopingCartScreen}
           options={{
             tabBarIcon: ({ color, focused }) => focused ?
-              (<IconI name="cart" color={color} size={26} />) :
-              (<IconI name="cart-outline" color={color} size={26} />),
+              (<IconI
+                name="cart"
+                color={color}
+                size={26}
+              />) :
+              (<IconI
+                name="cart-outline"
+                color={color}
+                size={26}
+              />),
           }} />
-        <Tab.Screen name="Listelerim" component={ListsScreen}
+        <Tab.Screen
+          name="Listelerim"
+          component={ListsScreen}
           options={{
             tabBarIcon: ({ color, focused }) => focused ?
-              (<IconI name="heart-sharp" color={color} size={26} />) :
-              (<IconI name="heart-outline" color={color} size={26} />),
+              (<IconI
+                name="heart-sharp"
+                color={color}
+                size={26}
+              />) :
+              (<IconI
+                name="heart-outline"
+                color={color}
+                size={26}
+              />),
           }} />
-        <Tab.Screen name="Hesabım" component={AccountStackScreen}
+        <Tab.Screen
+          name="Hesabım"
+          component={AccountStackScreen}
           options={{
             tabBarIcon: ({ color, focused }) => focused ?
-              <Image source={UserFocused} style={{ width: 22, height: 22, tintColor: color }} /> :
-              <Image source={User} style={{ width: 22, height: 22, tintColor: color }} />,
+              <Image
+                source={UserFocused}
+                style={{
+                  width: 22,
+                  height: 22,
+                  tintColor: color
+                }} /> :
+              <Image
+                source={User}
+                style={{
+                  width: 22,
+                  height: 22,
+                  tintColor: color
+                }} />,
           }} />
       </Tab.Navigator>
     </NavigationContainer>
@@ -68,28 +124,48 @@ export default function Container() {
 const AccountStack = createNativeStackNavigator();
 function AccountStackScreen() {
   return (
-    <AccountStack.Navigator screenOptions={{ headerShown: false }}>
+    <AccountStack.Navigator
+      screenOptions={{
+        headerShown: false
+      }}>
       <AccountStack.Screen
         name="AccountScreen"
-        component={AccountScreen} />
+        component={AccountScreen}
+      />
       <AccountStack.Screen
-        options={{ title: "Hesap Ayarlarım", headerShown: "true" }}
+        options={{
+          title: "Hesap Ayarlarım",
+          headerShown: "true"
+        }}
         name="AccountSettingsPages"
         component={AccountSettingsPages} />
       <AccountStack.Screen
-        options={{ title: "Kuponlarım", headerShown: "true" }}
+        options={{
+          title: "Kuponlarım",
+          headerShown: "true"
+        }}
         name="CouponPages"
         component={CouponPages} />
       <AccountStack.Screen
-        options={{ title: "Siparişlerim", headerShown: "true" }}
+        options={{
+          title: "Siparişlerim",
+          headerShown: "true"
+        }}
         name="MyOrders"
         component={MyOrders} />
       <AccountStack.Screen
-        options={{ title: "Yorumlarım", headerShown: "true" }}
+        options={{
+          title: "Yorumlarım",
+          headerShown: "true"
+        }}
         name="MyComments"
         component={MyComments} />
       <AccountStack.Screen
-        options={{ title: "Paylaş Kazan", headerTitleAlign: "center", headerShown: "true" }}
+        options={{
+          title: "Paylaş Kazan",
+          headerTitleAlign: "center",
+          headerShown: "true"
+        }}
         name="ShareWinPages"
         component={ShareWinPages} />
     </AccountStack.Navigator>);

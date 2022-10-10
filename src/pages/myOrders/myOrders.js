@@ -1,11 +1,11 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 import style from './style'
-import Dropdown from 'components/dropdown/dropdown'
 import IconE from "react-native-vector-icons/Entypo";
 import colors from 'assets/colors/colors';
-import FocusAwareStatusBar from 'components/focusAwareStatusBar/focusAwareStatusBar';
-import RecommendedProducts from 'components/cards/recommendedProducts/recommendedProducts';
+import { Dropdown } from 'components/dropdown';
+import { FocusAwareStatusBar } from 'components/focusAwareStatusBar';
+import { RecommendedProducts } from 'components/cards';
 export function MyOrders() {
   return (
     <View style={style.container}>

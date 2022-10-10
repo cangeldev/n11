@@ -4,7 +4,7 @@ import style from './style'
 import IconF from "react-native-vector-icons/Fontisto";
 import IconI from "react-native-vector-icons/Ionicons";
 import colors from 'assets/colors/colors';
-export default function ListScreenCard({ title, textOne, textTwo, icon }) {
+export function ListScreenCard({ title, textOne, textTwo, icon }) {
     return (
         <View style={style.container}>
             <View style={{ paddingLeft: 15, }} >

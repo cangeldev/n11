@@ -4,7 +4,7 @@ export default StyleSheet.create({
     container: {
         flex: 1,
         justifyContent: 'center',
-        backgroundColor: colors.backGroundlightGrey,       
+        backgroundColor: colors.backGroundlightGrey,
     },
     wrapDropDownHeader: {
         paddingHorizontal: 15,
@@ -17,7 +17,7 @@ export default StyleSheet.create({
         fontFamily: "OpenSans-Bold",
         color: colors.black,
         width: 320,
-        
+
     }, line: {
         borderBottomColor: colors.backGroundlightGrey,
         borderBottomWidth: 0.5,
@@ -31,6 +31,6 @@ export default StyleSheet.create({
         marginTop: -16,
         marginBottom: 15,
         fontFamily: "OpenSans-Regular",
-        fontSize:14
+        fontSize: 14
     }
 })

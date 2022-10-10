@@ -1,0 +1,1 @@
+export { CouponPagesButton } from "./couponPagesButton"

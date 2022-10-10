@@ -4,7 +4,7 @@ import IconI from "react-native-vector-icons/Ionicons";
 import style from './style'
 import colors from 'assets/colors/colors';
 import { HeaderIcon } from 'assets';
-export default function Header() {
+export function Header() {
     return (
         <View style={style.container}>
             <TextInput placeholder='Ürün, kategori, marka ara' style={style.txtInput} />

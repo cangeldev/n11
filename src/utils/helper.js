@@ -214,8 +214,6 @@ export const infoCollapsible = [
 
 
 ]
-
-
 export const rulesList = [
     {
         id: 1,
@@ -245,6 +243,4 @@ export const rulesList = [
         id: 7,
         text: "Katılımcılar, güncel koşullar ve kuralları öğrenmek için bu sayfayı düzenli olarak ziyaret etmeleri gerektiğini kabul ederler."
     },
-
-
 ]

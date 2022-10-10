@@ -1,10 +1,10 @@
 import { View, Text, TextInput, TouchableOpacity } from 'react-native'
 import React from 'react'
-import FocusAwareStatusBar from 'components/focusAwareStatusBar/focusAwareStatusBar'
 import colors from 'assets/colors/colors'
 import style from './style'
-import CouponButton from 'components/couponButton/couponButton'
-export  function CouponPages() {
+import { FocusAwareStatusBar } from 'components/focusAwareStatusBar'
+import { CouponPagesButton } from 'components/customButtons'
+export function CouponPages() {
     return (
         <View style={style.container}>
             <View style={style.header}>
@@ -14,10 +14,10 @@ export  function CouponPages() {
                     <Text style={style.headerText}>Ekle</Text>
                 </TouchableOpacity>
             </View>
-           <View style={style.contentView}>
-           <CouponButton title={"Aktif Kuponlarım (3)"}/>
-            <CouponButton title={"Aktif Olacak Kuponlarım (0)"}/>
-           </View>
+            <View style={style.contentView}>
+                <CouponPagesButton title="Aktif Kuponlarım (3)" />
+                <CouponPagesButton title="Aktif Olacak Kuponlarım (0)" />
+            </View>
         </View>
     )
 }

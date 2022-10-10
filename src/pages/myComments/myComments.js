@@ -1,12 +1,12 @@
 import { View, Text, Image, ScrollView } from 'react-native'
 import React from 'react'
-import FocusAwareStatusBar from 'components/focusAwareStatusBar/focusAwareStatusBar'
 import colors from 'assets/colors/colors'
-import Dropdown from 'components/dropdown/dropdown'
 import style from './style'
 import IconE from "react-native-vector-icons/Entypo";
 import { L11 } from 'assets'
-import CommentsCard from 'components/cards/commentsCard/commentsCard'
+import { Dropdown } from 'components/dropdown'
+import { FocusAwareStatusBar } from 'components/focusAwareStatusBar'
+import { CommentsCard } from 'components/cards';
 export function MyComments() {
     return (
         <ScrollView>

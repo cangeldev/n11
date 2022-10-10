@@ -2,7 +2,7 @@ import { View, Text } from 'react-native'
 import React from 'react'
 import RecommendedProductsCard from './recommendedProductsCard'
 import useFetch from 'hooks/useFetch/useFetch'
-export default function RecommendedProducts() {
+export function RecommendedProducts() {
     const { products, error, loading } = useFetch()
     return (
         <View style={{ flexDirection: "row" }}>

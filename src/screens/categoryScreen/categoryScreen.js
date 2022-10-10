@@ -1,11 +1,11 @@
-import { View, Text, StatusBar, Image } from 'react-native'
+import { View, Text, StatusBar } from 'react-native'
 import React from 'react'
 import style from './style'
 import colors from 'assets/colors/colors'
-import Header from 'components/header/header'
+import { Header } from 'components/header'
+import { FocusAwareStatusBar } from 'components/focusAwareStatusBar'
 import Category from 'components/cards/categoryCard/category'
-import FocusAwareStatusBar from 'components/focusAwareStatusBar/focusAwareStatusBar'
-export  function CategoryScreen() {
+export function CategoryScreen() {
   return (
     <View style={style.container}>
       <Header />

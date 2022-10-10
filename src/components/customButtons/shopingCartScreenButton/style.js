@@ -8,9 +8,9 @@ export default StyleSheet.create({
         borderRadius: 10,
         alignItems: "center",
         justifyContent: "center",
-        alignSelf:"center"
+        alignSelf: "center"
     },
-    touchText: {
+    touchableText: {
         color: colors.white,
         fontSize: 15,
         letterSpacing: 1,

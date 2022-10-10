@@ -1,7 +1,7 @@
 import { View, Text, Image } from 'react-native'
 import React from 'react'
 import style from './style'
-export default function InfoCard({ menu }) {
+export function InfoCard({ menu }) {
     return (
         <View style={style.container}>
             <Image source={menu.value} style={style.infoImage} />

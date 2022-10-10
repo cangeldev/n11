@@ -2,15 +2,14 @@ import { View, ScrollView, Image } from 'react-native'
 import React from 'react'
 import style from './style'
 import colors from 'assets/colors/colors'
-import Header from 'components/header/header'
-import Adress from 'components/adress/adress'
 import { Firsat, Kampanya, Kupon, Ma1, Ma2, Ma3, Ma4, Ma5, Reklam, Saatlik } from 'assets'
-import Slider from 'components/slider/slider'
-import Menu from 'components/cards/menuCard/menu'
-import HeaderMenuCard from 'components/cards/headerMenuCard/headerMenuCard'
-import Products from 'components/cards/productsCard/products'
+import { FocusAwareStatusBar } from 'components/focusAwareStatusBar'
+import { Adress, Header, Slider } from 'components'
+import { HeaderMenuCard } from 'components/cards'
 import Marka from 'components/cards/markaCard/marka'
-import FocusAwareStatusBar from 'components/focusAwareStatusBar/focusAwareStatusBar'
+import Menu from 'components/cards/menuCard/menu'
+import Products from 'components/cards/productsCard/products'
+
 export function HomeScreen() {
     return (
         <View style={style.container}>

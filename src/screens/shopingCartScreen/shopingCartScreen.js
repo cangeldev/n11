@@ -1,11 +1,12 @@
-import { View, Text, TouchableOpacity } from 'react-native'
+import { View, Text } from 'react-native'
 import React from 'react'
 import style from './style'
 import Lottie from 'lottie-react-native';
-import RecommendedProducts from 'components/cards/recommendedProducts/recommendedProducts';
-import FocusAwareStatusBar from 'components/focusAwareStatusBar/focusAwareStatusBar';
 import colors from 'assets/colors/colors';
-import TouchButton from 'components/button/button';
+import { FocusAwareStatusBar } from 'components/focusAwareStatusBar';
+import { ShopingCartScreenButton } from 'components/customButtons';
+import { RecommendedProducts } from 'components/cards';
+
 export function ShopingCartScreen() {
   return (
     <View style={style.container}>
@@ -16,7 +17,7 @@ export function ShopingCartScreen() {
       <View style={style.content}>
         <Text style={style.contentText}>Sepetiniz Boş Görünüyor</Text>
         <Lottie style={style.lottie} source={require('assets/images/shoping.json')} autoPlay loop />
-        <TouchButton title={"Favorilerime Git"}/>
+        <ShopingCartScreenButton title={"Favorilerime Git"} />
       </View>
       <Text style={style.text}>İlginizi Çekebilecek Ürünler</Text>
       <View style={style.productsView}>

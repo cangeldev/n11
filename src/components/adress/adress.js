@@ -4,16 +4,26 @@ import colors from 'assets/colors/colors'
 import IconI from "react-native-vector-icons/Ionicons";
 import IconE from "react-native-vector-icons/Entypo";
 import style from './style';
-export default function Adress() {
+export function Adress() {
   return (
-    <TouchableWithoutFeedback onPress={() => { console.log("asdas") }}>
-      <View style={style.adressContainer}>
+    <TouchableWithoutFeedback
+      onPress={() => {
+        console.log("asdas")
+      }}>
+      <View
+        style={style.adressContainer}
+      >
         <IconI
           name="md-location-outline"
           size={20}
           color={colors.black}
           style={{ marginLeft: 8 }} />
-        <Text style={[style.adressTxt, { fontFamily: "OpenSans_SemiCondensed-Bold", color: colors.black, }]}>
+        <Text
+          style={[style.adressTxt,
+          {
+            fontFamily: "OpenSans_SemiCondensed-Bold",
+            color: colors.black,
+          }]}>
           Düzce
         </Text>
         <Text style={style.adressTxt}>

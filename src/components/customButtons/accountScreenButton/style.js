@@ -8,14 +8,15 @@ export default StyleSheet.create({
     },
     image: {
         marginRight: 15,
-        tintColor: "red",
+        tintColor: colors.grey,
         width: 21,
         height: 21
     },
     icon: {
-        position: "absolute", right: 10
+        position: "absolute",
+        right: 10
     },
-    title: {
+    text: {
         fontSize: 15,
         color: colors.black,
         fontFamily: "OpenSans-Regular"

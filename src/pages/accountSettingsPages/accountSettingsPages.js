@@ -1,12 +1,12 @@
 import { View, Text, TouchableOpacity, Image, Switch } from 'react-native'
 import React, { useState } from 'react'
-import AccountButton from 'components/accountButton/accountButton'
 import { list } from 'utils/helper'
 import style from './style'
 import IconO from "react-native-vector-icons/Octicons";
 import { L1, L26 } from 'assets'
 import colors from 'assets/colors/colors'
-import FocusAwareStatusBar from 'components/focusAwareStatusBar/focusAwareStatusBar'
+import { FocusAwareStatusBar } from 'components/focusAwareStatusBar';
+import { AccountScreenButton } from 'components/customButtons';
 export  function AccountSettingsPages() {
   const [isEnabled, setIsEnabled] = useState(false);
   const toggleSwitch = () => setIsEnabled(previousState => !previousState);
@@ -15,7 +15,7 @@ export  function AccountSettingsPages() {
       <FocusAwareStatusBar barStyle="dark-content" backgroundColor={colors.white} />
       <View style={style.container}>
         {
-          list.slice(22, 24).map((item) => <AccountButton key={item.key} category={item} />)
+          list.slice(22, 24).map((item) => <AccountScreenButton key={item.key} category={item} />)
         }
         <TouchableOpacity activeOpacity={1} style={style.containerTouch}>
           <Image source={L1} style={[style.image]} />
@@ -28,7 +28,7 @@ export  function AccountSettingsPages() {
           />
         </TouchableOpacity>
         {
-          list.slice(24, 26).map((item) => <AccountButton key={item.key} category={item} />)
+          list.slice(24, 26).map((item) => <AccountScreenButton key={item.key} category={item} />)
         }
       </View>
       <View style={style.container}>

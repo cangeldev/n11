@@ -20,14 +20,6 @@ export default StyleSheet.create({
         color: colors.black,
         fontSize: 16,
         lineHeight: 23,
-
-    },
-    listView: {
-        backgroundColor: colors.white,
-        marginVertical: 4,
-        marginHorizontal: 12,
-        padding: 15,
-        borderRadius: 10
     },
     title: {
         marginHorizontal: 12,

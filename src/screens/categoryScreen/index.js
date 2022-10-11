@@ -1,1 +1,1 @@
-export {CategoryScreen} from "./categoryScreen"
+export { CategoryScreen } from "./categoryScreen"

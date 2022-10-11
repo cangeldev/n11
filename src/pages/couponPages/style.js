@@ -28,7 +28,6 @@ export default StyleSheet.create({
         justifyContent: "center",
         alignItems: "center",
         borderRadius: 6,
-
     },
     headerText: {
         color: colors.white,

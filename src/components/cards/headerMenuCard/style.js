@@ -13,6 +13,6 @@ export default StyleSheet.create({
         fontSize: 12,
         marginTop: 3,
         color: colors.black,
-        fontFamily:"OpenSans-Regular"
+        fontFamily: "OpenSans-Regular"
     }
 });

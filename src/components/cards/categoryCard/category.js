@@ -3,7 +3,7 @@ import React from 'react'
 import CategoryCard from './categoryCard'
 import style from './style'
 import { categoryListe } from 'utils/helper'
-export default function Category() {
+export function Category() {
     return (
         <View style={style.container}>
             {

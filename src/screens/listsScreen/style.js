@@ -25,16 +25,17 @@ export default StyleSheet.create({
     },
     linearView: {
         flexDirection: "row",
-        alignItems: "center"
+        alignItems: "center",
     },
     linearViewText: {
         marginTop: 10,
         marginBottom: 15,
         color: colors.blue,
-        fontFamily: "OpenSans-Bold"
+        fontFamily: "OpenSans-Bold",
     },
     linearViewIcon: {
         marginLeft: 8,
         color: colors.blue,
+        marginTop: -3
     }
 });

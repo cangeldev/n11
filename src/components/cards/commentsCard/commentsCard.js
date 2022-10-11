@@ -7,23 +7,32 @@ import style from './style';
 import IconE from "react-native-vector-icons/Entypo";
 export function CommentsCard() {
     return (
-        <View style={style.contentView}>
-            <View style={style.productView}>
-                <Image style={style.image} source={esya} />
-                <View style={style.productTitleView}>
-                    <Text style={style.productTitle}>
+        <View
+            style={style.container}>
+            <View
+                style={style.productView}>
+                <Image
+                    style={style.image}
+                    source={esya} />
+                <View>
+                    <Text
+                        style={style.productTitle}>
                         adidas Vs Pace Erkek Günlük Spor Ayakkabısı
                     </Text>
-                    <Text style={style.productDate}>
+                    <Text
+                        style={style.productDate}>
                         Sipariş Tarihi: 17.02.2022
                     </Text>
                 </View>
             </View>
-            <Text style={style.evaluation}>
+            <Text
+                style={style.evaluation}>
                 Henüz değerlendirmen yok
             </Text>
-            <View style={style.commentView}>
-                <Text style={style.commentViewText}>
+            <View
+                style={style.commentView}>
+                <Text
+                    style={style.commentViewText}>
                     Yorum Yap
                 </Text>
                 <IconE
@@ -32,13 +41,19 @@ export function CommentsCard() {
                     color={colors.blue}
                 />
             </View>
-            <View style={style.line} />
-            <View style={style.infoView}>
-                <View style={style.favoriContainer}>
-                    <Image source={shoping} style={style.contentIcon} />
+            <View
+                style={style.line} />
+            <View
+                style={style.infoView}>
+                <View
+                    style={style.favoriContainer}>
+                    <Image source={shoping}
+                        style={style.favoriContainerIcon} />
                 </View>
-                <View style={style.info}>
-                    <Text style={style.marka}>
+                <View
+                    style={style.info}>
+                    <Text
+                        style={style.brand}>
                         korayspor
                     </Text>
                     <Progress.Bar
@@ -48,9 +63,14 @@ export function CommentsCard() {
                         color={colors.lightGreen}
                         borderColor={colors.white}
                         height={4} />
-                    <Text style={style.infoText}>%77</Text>
+                    <Text
+                        style={style.infoText}>
+                        %77
+                    </Text>
                 </View>
-                <Text style={[style.commentViewText, { marginLeft: 80 }]}>
+                <Text
+                    style={[style.commentViewText,
+                    { marginLeft: 80 }]}>
                     Yorum Yap
                 </Text>
                 <IconE
@@ -59,17 +79,25 @@ export function CommentsCard() {
                     color={colors.blue}
                 />
             </View>
-            <View style={[style.line, { marginVertical: 20 }]} />
-            <View style={style.infoView}>
-                <View style={style.favoriContainer}>
-                    <Image source={delivery} style={style.contentIcon} />
+            <View
+                style={[style.line, { marginVertical: 20 }]} />
+            <View
+                style={style.infoView}>
+                <View
+                    style={style.favoriContainer}>
+                    <Image
+                        source={delivery}
+                        style={style.favoriContainerIcon} />
                 </View>
-                <View style={style.info}>
-                    <Text style={style.marka}>
+                <View
+                    style={style.info}>
+                    <Text
+                        style={style.brand}>
                         Yurtiçi Kargo
                     </Text>
                 </View>
-                <Text style={[style.commentViewText, { marginLeft: 80 }]}>
+                <Text
+                    style={[style.commentViewText, { marginLeft: 80 }]}>
                     Yorum Yap
                 </Text>
                 <IconE

@@ -15,7 +15,7 @@ export default StyleSheet.create({
     },
     image: {
         marginRight: 15,
-        tintColor: "#32cd32",
+        tintColor:colors.grey,
         width: 21,
         height: 21
     },

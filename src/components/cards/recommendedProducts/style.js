@@ -3,13 +3,12 @@ import { StyleSheet } from "react-native";
 
 export default StyleSheet.create({
     container: {
-        width: 200,      
+        width: 200,
         overflow: "hidden",
         backgroundColor: colors.white,
-        borderRightWidth:1,
-        borderRightColor:colors.lightGrey,
-        marginTop:20  
-             
+        borderRightWidth: 1,
+        borderRightColor: colors.lightGrey,
+        marginTop: 20
     },
     cardImage: {
         width: 130,
@@ -24,8 +23,8 @@ export default StyleSheet.create({
         lineHeight: 20,
         marginLeft: 7,
         marginTop: 10,
-        fontFamily:"OpenSans-Medium",
-        fontSize:13
+        fontFamily: "OpenSans-Medium",
+        fontSize: 13
     },
     rateView: {
         flexDirection: "row",
@@ -47,12 +46,12 @@ export default StyleSheet.create({
         fontWeight: "bold",
         marginTop: 5
     },
-    text:{
-        color:colors.grey,
-        marginLeft:5,
-        marginTop:5,
-        fontSize:11,
-        fontFamily:"OpenSans-Medium",
+    text: {
+        color: colors.grey,
+        marginLeft: 5,
+        marginTop: 5,
+        fontSize: 11,
+        fontFamily: "OpenSans-Medium",
     },
     lastPrice: {
         marginLeft: 6,

@@ -10,17 +10,17 @@ export default StyleSheet.create({
         width: "100%",
         height: 60
     },
-    title: {
+    headerTitle: {
         color: colors.white,
         marginTop: 15,
         marginLeft: 15,
         fontFamily: "OpenSans-Bold",
         fontSize: 18
     },
-    content: {
+    contentView: {
         alignItems: "center"
     },
-    contentText: {
+    contentViewText: {
         color: colors.black,
         fontSize: 16,
         marginTop: 23,

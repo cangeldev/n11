@@ -4,11 +4,12 @@ import style from './style'
 import useFetch from 'hooks/useFetch/useFetch'
 import MarkaCard from './markaCard'
 import { marka } from 'utils/helper'
-export default function Marka({ backgroundPath }) {
-
+export function Marka({ backgroundPath }) {
     const { products, error, loading } = useFetch()
     return (
-        <ImageBackground style={style.image} source={backgroundPath}>
+        <ImageBackground
+            style={style.image}
+            source={backgroundPath}>
             <ScrollView horizontal showsHorizontalScrollIndicator={false}>
                 {
                     products.slice(15, 20).map((item) => <MarkaCard key={item.id} products={item} />)

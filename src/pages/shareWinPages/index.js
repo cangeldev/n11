@@ -1,1 +1,1 @@
-export {ShareWinPages} from "./shareWinPages"
+export { ShareWinPages } from "./shareWinPages"

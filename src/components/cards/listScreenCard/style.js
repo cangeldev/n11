@@ -8,16 +8,16 @@ export default StyleSheet.create({
         borderRadius: 3,
         paddingVertical: 10
     },
-    titleView: {
+    contentViewTitle: {
         flexDirection: "row",
         alignItems: "center",
     },
-    title: {
+    contentViewTitleText: {
         fontFamily: "OpenSans-SemiBold",
         fontSize: 18,
         color: colors.black
     },
-    titleText: {
+    contentViewTitleTextInfo: {
         marginLeft: 5,
         color: colors.grey,
         fontFamily: "OpenSans-Regular",
@@ -43,5 +43,10 @@ export default StyleSheet.create({
     contentIcon: {
         marginTop: 15,
         marginBottom: 6
+    },
+    text: {
+        color: "#296cae",
+        marginTop: 5,
+        fontFamily: "OpenSans-Medium"
     }
 })

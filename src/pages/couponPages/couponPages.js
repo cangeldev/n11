@@ -8,10 +8,17 @@ export function CouponPages() {
     return (
         <View style={style.container}>
             <View style={style.header}>
-                <FocusAwareStatusBar barStyle="dark-content" backgroundColor={colors.white} />
-                <TextInput style={style.txtInput} placeholder="Kupon kodu girin" />
+                <FocusAwareStatusBar
+                    barStyle="dark-content"
+                    backgroundColor={colors.white}
+                />
+                <TextInput
+                    style={style.txtInput}
+                    placeholder="Kupon kodu girin" />
                 <TouchableOpacity style={style.headerButton}>
-                    <Text style={style.headerText}>Ekle</Text>
+                    <Text style={style.headerText}>
+                        Ekle
+                    </Text>
                 </TouchableOpacity>
             </View>
             <View style={style.contentView}>

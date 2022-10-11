@@ -20,7 +20,7 @@ export default StyleSheet.create({
         paddingLeft: 64,
         paddingRight: 35,
         fontFamily: "OpenSans_SemiCondensed-Medium",
-        paddingBottom:10
+        paddingBottom: 10
     },
     notificationsView:
     {
@@ -40,7 +40,7 @@ export default StyleSheet.create({
         borderTopLeftRadius: 30,
         borderBottomLeftRadius: 30,
     },
-    search: {
+    searchIcon: {
         position: "absolute",
         right: 72,
         color: colors.grey,

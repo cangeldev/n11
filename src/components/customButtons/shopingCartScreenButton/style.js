@@ -1,7 +1,7 @@
 import colors from "assets/colors/colors";
 import { StyleSheet } from "react-native";
 export default StyleSheet.create({
-    touchableOpacity: {
+    container: {
         backgroundColor: colors.lightGreen,
         width: "92%",
         height: 45,
@@ -10,7 +10,7 @@ export default StyleSheet.create({
         justifyContent: "center",
         alignSelf: "center"
     },
-    touchableText: {
+    text: {
         color: colors.white,
         fontSize: 15,
         letterSpacing: 1,

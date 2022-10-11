@@ -1,1 +1,1 @@
-export {CouponPages} from "./couponPages"
+export { CouponPages } from "./couponPages"

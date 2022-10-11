@@ -13,8 +13,10 @@ const CollapsibleViewCard = ({ info }) => {
                     setShowMoreInfo(value)
                 }}
                 renderHeader={() => (
-                    <View style={style.wrapDropDownHeader}>
-                        <Text style={style.title}>
+                    <View
+                        style={style.wrapDropDownHeader}>
+                        <Text
+                            style={style.title}>
                             {info.title}
                         </Text>
                         <IconE
@@ -26,7 +28,8 @@ const CollapsibleViewCard = ({ info }) => {
                 )}
                 renderContent={() => (
                     <View style={{ backgroundColor: 'white', }}>
-                        <Text style={style.text}>
+                        <Text
+                            style={style.text}>
                             {info.text}
                         </Text>
                     </View>

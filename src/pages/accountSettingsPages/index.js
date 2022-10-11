@@ -1,1 +1,1 @@
-export {AccountSettingsPages} from "./accountSettingsPages"
+export { AccountSettingsPages } from "./accountSettingsPages"

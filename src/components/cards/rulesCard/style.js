@@ -18,5 +18,10 @@ export default StyleSheet.create({
         width: "95%",
         fontSize: 15,
         fontFamily: "OpenSans-Regular"
+    },
+    rulesCard: {
+        paddingBottom: 25,
+        backgroundColor: colors.backGroundlightGrey,
+        paddingTop: 5
     }
 })

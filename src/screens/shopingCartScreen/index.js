@@ -1,1 +1,1 @@
-export{ShopingCartScreen} from "./shopingCartScreen"
+export { ShopingCartScreen } from "./shopingCartScreen"

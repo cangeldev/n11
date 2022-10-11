@@ -1,1 +1,1 @@
-export { InfoCard } from "./infoCard"
+export { Info } from "./info"

@@ -4,9 +4,9 @@ import style from './style'
 export function ShopingCartScreenButton({ title }) {
   return (
     <TouchableOpacity
-      style={style.touchableOpacity}>
+      style={style.container}>
       <Text
-        style={style.touchableText}>
+        style={style.text}>
         {title}
       </Text>
     </TouchableOpacity>

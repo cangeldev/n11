@@ -15,7 +15,7 @@ export default StyleSheet.create({
         fontSize: 11,
         marginTop: 3,
         color: colors.black,
-        fontFamily:"OpenSans-Medium"
+        fontFamily: "OpenSans-Medium"
     },
     menu:
     {

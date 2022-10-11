@@ -17,9 +17,13 @@ export default function ProductsCard({ products }) {
           size={13}
           color={colors.black}
           style={{ color: colors.white }} />
-        <Text style={style.headerViewText}>Günün Süper Fırsatı</Text>
+        <Text style={style.headerViewText}>
+          Günün Süper Fırsatı
+        </Text>
       </View>
-      <Image source={{ uri: products.image }} style={style.image} />
+      <Image
+        source={{ uri: products.image }}
+        style={style.image} />
       <View style={style.favoriContainer}>
         <IconI
           name="heart"
@@ -27,7 +31,9 @@ export default function ProductsCard({ products }) {
           color={colors.lightGrey}
         />
       </View>
-      <Text numberOfLines={2} style={style.productsTitle}>
+      <Text
+        numberOfLines={2}
+        style={style.productsTitle}>
         {products.title}
       </Text>
       <View style={style.rateView}>
@@ -41,13 +47,27 @@ export default function ProductsCard({ products }) {
           fullStar={<IconF name={'star'} style={[style.myStarStyle]} />}
           emptyStar={<IconF name={'star'} style={[style.myStarStyle, style.myEmptyStarStyle]} />}
           halfStar={<IconF name={'star-half'} style={[style.myStarStyle]} />} />
-        <Text style={style.count}>({products.rating.count})</Text>
+        <Text style={style.count}>
+          ({products.rating.count})
+        </Text>
       </View>
-      <Text style={style.lastPrice}>{products.price + (random * 100 + 1)} TL</Text>
-      <Text style={style.sepet}>SEPETTE</Text>
-      <Text style={style.price}>{products.price} TL</Text>
-      <Lottie style={style.lottie} source={require('assets/images/colorOptions.json')} autoPlay loop />
-      <Text style={style.random}>({random})</Text>
+      <Text style={style.lastPrice}>
+        {products.price + (random * 100 + 1)} TL
+      </Text>
+      <Text style={style.sepet}>
+        SEPETTE
+      </Text>
+      <Text style={style.price}>
+        {products.price} TL
+      </Text>
+      <Lottie
+        style={style.lottie}
+        source={require('assets/images/colorOptions.json')}
+        autoPlay
+        loop />
+      <Text style={style.random}>
+        ({random})
+      </Text>
     </View>
   )
 }

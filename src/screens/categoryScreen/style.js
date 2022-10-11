@@ -9,7 +9,7 @@ export default StyleSheet.create({
         marginTop: 5,
         marginLeft: 15,
         fontSize: 19,
-        fontFamily:"OpenSans-Bold",
+        fontFamily: "OpenSans-Bold",
         color: colors.black
     }
 });

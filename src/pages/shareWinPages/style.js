@@ -1,6 +1,10 @@
 import colors from "assets/colors/colors";
 import { StyleSheet } from "react-native";
 export default StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: colors.white
+    },
     image: {
         width: "100%",
         height: 136,
@@ -43,14 +47,4 @@ export default StyleSheet.create({
         textAlign: "center",
         lineHeight: 20
     },
-    card: {
-        backgroundColor: colors.backGroundlightGrey,
-        paddingHorizontal: 10,
-        paddingBottom: 15
-    },
-    rulesCard: {
-        paddingBottom: 25,
-        backgroundColor: colors.backGroundlightGrey,
-        paddingTop: 5
-    }
 })

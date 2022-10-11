@@ -1,1 +1,1 @@
-export {CommentsCard} from "./commentsCard"
+export { CommentsCard } from "./commentsCard"

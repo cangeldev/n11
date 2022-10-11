@@ -1,1 +1,1 @@
-export {MyOrders} from "./myOrders"
+export { MyOrders } from "./myOrders"

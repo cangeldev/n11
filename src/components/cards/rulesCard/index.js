@@ -1,1 +1,1 @@
-export { RulesCard } from "./rulesCard"
+export { Rules } from "./rules"

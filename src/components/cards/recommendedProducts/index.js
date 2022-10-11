@@ -1,1 +1,1 @@
-export {RecommendedProducts} from "./recommendedProducts"
+export { RecommendedProducts } from "./recommendedProducts"

@@ -7,9 +7,15 @@ export default function RecommendedProductsCard({ products }) {
     const random = Math.floor(Math.random() * 10)
     return (
         <View style={style.container}>
-            <Image source={{ uri: products.image }} style={style.cardImage} />
+            <Image
+                source={{ uri: products.image }}
+                style={style.cardImage} />
 
-            <Text numberOfLines={2} style={style.productsTitle}>{products.title}</Text>
+            <Text
+                numberOfLines={2}
+                style={style.productsTitle}>
+                {products.title}
+            </Text>
             <View style={style.rateView}>
                 <Stars
                     half={true}
@@ -21,11 +27,19 @@ export default function RecommendedProductsCard({ products }) {
                     fullStar={<IconF name={'star'} style={[style.myStarStyle]} />}
                     emptyStar={<IconF name={'star'} style={[style.myStarStyle, style.myEmptyStarStyle]} />}
                     halfStar={<IconF name={'star-half'} style={[style.myStarStyle]} />} />
-                <Text style={style.count}>({products.rating.count})</Text>
+                <Text style={style.count}>
+                    ({products.rating.count})
+                </Text>
             </View>
-            <Text style={style.lastPrice}>{products.price + (random * 100 + 1)} TL</Text>
-            <Text style={style.price}>{products.price} TL</Text>
-            <Text style={style.text}>Ücretsiz Kargo</Text>
+            <Text style={style.lastPrice}>
+                {products.price + (random * 100 + 1)} TL
+            </Text>
+            <Text style={style.price}>
+                {products.price} TL
+            </Text>
+            <Text style={style.text}>
+                Ücretsiz Kargo
+            </Text>
         </View>
     )
 }

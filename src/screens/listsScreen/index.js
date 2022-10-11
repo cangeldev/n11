@@ -1,1 +1,1 @@
-export {ListsScreen} from "./listsScreen"
+export { ListsScreen } from "./listsScreen"

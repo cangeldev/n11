@@ -20,5 +20,12 @@ export default StyleSheet.create({
         fontSize: 15,
         color: colors.black,
         fontFamily: "OpenSans-Regular"
-    }
+    },
+    listView: {
+        backgroundColor: colors.white,
+        marginVertical: 4,
+        marginHorizontal: 12,
+        padding: 15,
+        borderRadius: 10
+    },
 })

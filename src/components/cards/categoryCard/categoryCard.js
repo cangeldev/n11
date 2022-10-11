@@ -4,8 +4,14 @@ import style from './style'
 export default function CategoryCard({ category }) {
   return (
     <View>
-      <Image source={category.value} style={style.image} />
-      <Text style={style.text}>{category.text}</Text>
+      <Image
+        source={category.value}
+        style={style.image}
+      />
+      <Text
+        style={style.text}>
+        {category.text}
+      </Text>
     </View>
   )
 }

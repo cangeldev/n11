@@ -7,14 +7,25 @@ import { HeaderIcon } from 'assets';
 export function Header() {
     return (
         <View style={style.container}>
-            <TextInput placeholder='Ürün, kategori, marka ara' style={style.txtInput} />
+            <TextInput
+                placeholder='Ürün, kategori, marka ara'
+                style={style.txtInput}
+            />
             <View style={style.notificationsView}>
-                <IconI name="notifications" color={colors.white} size={26} />
+                <IconI
+                    name="notifications"
+                    color={colors.white}
+                    size={26} />
             </View>
             <View style={style.imageView}>
-                <Image source={HeaderIcon} style={style.image} />
+                <Image
+                    source={HeaderIcon}
+                    style={style.image} />
             </View>
-            <IconI style={style.search} name="search" color={colors.white} size={20} />
+            <IconI style={style.searchIcon}
+                name="search"
+                color={colors.white}
+                size={20} />
         </View>
     )
 }

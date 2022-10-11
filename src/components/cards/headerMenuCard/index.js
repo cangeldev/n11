@@ -1,1 +1,1 @@
-export {HeaderMenuCard} from "./headerMenuCard"
+export { HeaderMenuCard } from "./headerMenuCard"

@@ -4,7 +4,7 @@ import style from './style'
 export function CouponPagesButton({ title }) {
     return (
         <TouchableOpacity
-            style={style.button}>
+            style={style.container}>
             <Text
                 style={style.text}>
                 {title}

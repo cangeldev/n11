@@ -1,7 +1,7 @@
 import colors from "assets/colors/colors";
 import { StyleSheet } from "react-native";
 export default StyleSheet.create({
-    button: {
+    container: {
         backgroundColor: colors.black,
         marginLeft: 12,
         justifyContent: "center",

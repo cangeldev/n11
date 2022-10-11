@@ -1,0 +1,1 @@
+export { Marka } from "./marka"

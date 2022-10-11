@@ -18,7 +18,8 @@ export default StyleSheet.create({
         color: colors.black,
         width: 320,
 
-    }, line: {
+    },
+    line: {
         borderBottomColor: colors.backGroundlightGrey,
         borderBottomWidth: 0.5,
         width: 370,
@@ -32,5 +33,10 @@ export default StyleSheet.create({
         marginBottom: 15,
         fontFamily: "OpenSans-Regular",
         fontSize: 14
-    }
+    },
+    cardContainer: {
+        backgroundColor: colors.backGroundlightGrey,
+        paddingHorizontal: 10,
+        paddingBottom: 15
+    },
 })

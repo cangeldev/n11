@@ -4,9 +4,8 @@ import colors from 'assets/colors/colors'
 import style from './style'
 import IconE from "react-native-vector-icons/Entypo";
 import { L11 } from 'assets'
-import { Dropdown } from 'components/dropdown'
-import { FocusAwareStatusBar } from 'components/focusAwareStatusBar'
 import { CommentsCard } from 'components/cards';
+import { Dropdown, FocusAwareStatusBar } from 'components';
 export function MyComments() {
     return (
         <ScrollView>
@@ -22,8 +21,12 @@ export function MyComments() {
                     />
                 </View>
                 <View style={style.shortByView}>
-                    <Image source={L11} style={style.iconImage} />
-                    <Text style={style.headerText}>Sırala</Text>
+                    <Image
+                        source={L11}
+                        style={style.iconImage} />
+                    <Text style={style.headerText}>
+                        Sırala
+                    </Text>
                 </View>
             </View>
             <View style={{ marginBottom: 15 }}>

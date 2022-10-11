@@ -15,7 +15,7 @@ export default StyleSheet.create({
         borderColor: colors.lightGrey,
         paddingHorizontal: 10
     },
-    text: {
+    headerText: {
         fontSize: 16,
         marginRight: 65,
         color: colors.black

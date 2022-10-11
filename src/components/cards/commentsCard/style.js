@@ -1,17 +1,7 @@
 import colors from "assets/colors/colors";
 import { StyleSheet } from "react-native";
 export default StyleSheet.create({
-    commentView: {
-        flexDirection: "row",
-        alignSelf: "center",
-        alignItems: "center",
-        marginTop: 10
-    },
-    commentViewText: {
-        color: colors.blue,
-        fontFamily: "OpenSans-SemiBold"
-    },
-    contentView: {
+    container: {
         backgroundColor: colors.white,
         height: 342,
         marginHorizontal: 15,
@@ -23,6 +13,12 @@ export default StyleSheet.create({
         width: "100%",
         height: 100,
         flexDirection: "row"
+    },
+    image: {
+        width: 80,
+        height: 80,
+        marginTop: 10,
+        marginLeft: 10,
     },
     productTitle: {
         color: colors.black,
@@ -50,15 +46,25 @@ export default StyleSheet.create({
         fontFamily: "OpenSans-Medium",
         fontSize: 15,
         borderRadius: 5,
-    }, line: {
+    },
+    commentView: {
+        flexDirection: "row",
+        alignSelf: "center",
+        alignItems: "center",
+        marginTop: 10
+    },
+    commentViewText: {
+        color: colors.blue,
+        fontFamily: "OpenSans-SemiBold"
+    },
+    line: {
         borderBottomColor: colors.grey,
         borderBottomWidth: StyleSheet.hairlineWidth,
         marginVertical: 15
     },
-    contentIcon: {
-        width: 18,
-        height: 18,
-        tintColor: colors.grey
+    infoView: {
+        flexDirection: "row",
+        alignItems: "center",
     },
     favoriContainer: {
         width: 30,
@@ -69,21 +75,23 @@ export default StyleSheet.create({
         justifyContent: "center",
         marginLeft: 15
     },
-    infoView: {
-        flexDirection: "row",
-        alignItems: "center",
+    favoriContainerIcon: {
+        width: 18,
+        height: 18,
+        tintColor: colors.grey
     },
     info: {
         marginLeft: 10,
     },
+    brand: {
+        fontFamily: "OpenSans-Bold",
+        width: 120,
+        height: 20,
+        color: colors.black
+    },
     progress: {
         marginTop: 3,
         backgroundColor: colors.backGroundlightGrey
-    }, image: {
-        width: 80,
-        height: 80,
-        marginTop: 10,
-        marginLeft: 10,
     },
     infoText: {
         position: "absolute",
@@ -93,10 +101,4 @@ export default StyleSheet.create({
         fontFamily: "OpenSans-Bold",
         color: colors.black
     },
-    marka: {
-        fontFamily: "OpenSans-Bold",
-        width: 120,
-        height: 20,
-        color: colors.black
-    }
 })

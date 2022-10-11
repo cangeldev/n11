@@ -10,7 +10,9 @@ export default function MarkaCard({ products }) {
     const random = Math.floor(Math.random() * 10)
     return (
         <View style={style.container}>
-            <Image source={{ uri: products.image }} style={style.cardImage} />
+            <Image
+                source={{ uri: products.image }}
+                style={style.cardImage} />
             <View style={style.favoriContainer}>
                 <IconI
                     name="heart"
@@ -18,7 +20,11 @@ export default function MarkaCard({ products }) {
                     color={colors.lightGrey}
                 />
             </View>
-            <Text numberOfLines={2} style={style.productsTitle}>{products.title}</Text>
+            <Text
+                numberOfLines={2}
+                style={style.productsTitle}>
+                {products.title}
+            </Text>
             <View style={style.rateView}>
                 <Stars
                     half={true}
@@ -30,11 +36,24 @@ export default function MarkaCard({ products }) {
                     fullStar={<IconF name={'star'} style={[style.myStarStyle]} />}
                     emptyStar={<IconF name={'star'} style={[style.myStarStyle, style.myEmptyStarStyle]} />}
                     halfStar={<IconF name={'star-half'} style={[style.myStarStyle]} />} />
-                <Text style={style.count}>({products.rating.count})</Text>
+                <Text style={style.count}>
+                    ({products.rating.count})
+                </Text>
             </View>
-            <Text style={style.price}>{products.price} TL</Text>
-            <Lottie style={style.lottie} source={require('assets/images/colorOptions.json')} autoPlay loop />
-            <Text style={style.random}>({random})</Text>
+            <Text style={style.price}>
+                {products.price}
+                TL
+            </Text>
+            <Lottie
+                style={style.lottie}
+                source={require('assets/images/colorOptions.json')}
+                autoPlay
+                loop
+            />
+            <Text
+                style={style.random}>
+                ({random})
+            </Text>
         </View>
     )
 }

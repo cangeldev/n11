@@ -5,13 +5,17 @@ import IconE from "react-native-vector-icons/Entypo";
 import colors from 'assets/colors/colors';
 import ProductsCard from './productsCard';
 import useFetch from 'hooks/useFetch/useFetch';
-export default function Products({ title }) {
+export function Products({ title }) {
   const { products, error, loading } = useFetch()
   return (
     <View style={style.container}>
-      <Text style={style.title}>{title}</Text>
+      <Text style={style.title}>
+        {title}
+      </Text>
       <View style={style.allProducts}>
-        <Text style={style.text}>Tümünü Gör </Text>
+        <Text style={style.text}>
+          Tümünü Gör
+        </Text>
         <IconE
           name="chevron-small-right"
           size={21}

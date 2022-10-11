@@ -25,7 +25,7 @@ export function AccountScreenButton({ category }) {
             </Text>
             <IconO
                 style={[style.icon]}
-                name={"chevron-right"}
+                name="chevron-right"
                 color={colors.grey}
                 size={24} />
         </TouchableOpacity>

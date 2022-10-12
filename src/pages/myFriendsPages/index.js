@@ -1,0 +1,1 @@
+export { MyFriendsPages } from "./myFriendsPages"

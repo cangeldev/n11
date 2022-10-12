@@ -9,7 +9,10 @@ import { Dropdown, FocusAwareStatusBar } from 'components';
 export function MyComments() {
     return (
         <ScrollView>
-            <FocusAwareStatusBar barStyle="dark-content" backgroundColor={colors.white} />
+            <FocusAwareStatusBar
+                barStyle="dark-content"
+                backgroundColor={colors.white}
+            />
             <View style={style.headerContainer}>
                 <View style={style.dropdownView}>
                     <Dropdown />

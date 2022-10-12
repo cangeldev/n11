@@ -17,4 +17,5 @@ export default {
     blue: "#4782ec",
     backGroundlightGrey: "#f0f0f0",
     arsenic: "#3B444B",
+    notificationsBackground: "#fff4d6",
 }

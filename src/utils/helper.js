@@ -7,7 +7,7 @@ export const list = [
     { key: 3, value: L3, text: "İstek Listelerim/Favorilerim", colorsPath: "#8b4513", navigationPath: "Listelerim" },
     { key: 4, value: L4, text: "Yorumlarım", colorsPath: "#00008b", navigationPath: "MyComments" },
     { key: 5, value: L5, text: "Paylaş Kazan", colorsPath: "#8b7b8b", navigationPath: "ShareWinPages" },
-    { key: 6, value: L6, text: "Bildirimlerim", colorsPath: "#000", navigationPath: "ShareWinPages" },
+    { key: 6, value: L6, text: "Bildirimlerim", colorsPath: "#000", navigationPath: "NotificationsPages" },
     { key: 7, value: L7, text: "Garajım", colorsPath: "#ee9a49" },
     { key: 8, value: L8, text: "Pet11'e Kayıtlı Dostlarım", colorsPath: "#bc8f8f" },
     { key: 9, value: L4, text: "Ürün Yorumlarım", colorsPath: "#32cd32" },
@@ -243,4 +243,32 @@ export const rulesList = [
         id: 7,
         text: "Katılımcılar, güncel koşullar ve kuralları öğrenmek için bu sayfayı düzenli olarak ziyaret etmeleri gerektiğini kabul ederler."
     },
+]
+export const notificationsList = [
+    {
+        id: 1,
+        text: "35 TL indirim Kuponun hesabında! 🤩 Hemen gel, alışverişe başla 👉",
+        date: "22 saat önce"
+    },
+    {
+        id: 2,
+        text: "Üstelik World Mobil'e özel n11'de tek seferlik yapacağın alışverişlerde 100 TL'ye varan n11 puan kazan! 💜",
+        date: "1 gün önce"
+    },
+    {
+        id: 3,
+        text: "Evcil Hayvan 🐱 Ürünleri kategorisinde fırsat seni bekliyor 👉",
+        date: "1 gün önce"
+    },
+    {
+        id: 4,
+        text: "Baby Turco'da 👶 kaçırılmayacak indirim! Islak havlu 12 x 90 adet 95,99 TL ❤️",
+        date: "2 gün önce"
+    },
+    {
+        id: 5,
+        text: '⏰ Son Saatler ⏰ "Ek Gıdaya Geçiş" temasında geçerli indirimin süresi doluyor! Acele et, fırsatı kaçırma 👉',
+        date: "4 gün önce"
+    },
+
 ]

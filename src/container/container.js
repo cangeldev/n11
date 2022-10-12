@@ -5,9 +5,9 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import colors from 'assets/colors/colors';
 import IconI from "react-native-vector-icons/Ionicons";
-import { Home, HomeFocused, User, UserFocused } from 'assets'
+import { Home, HomeFocused, Search, User, UserFocused } from 'assets'
 import SystemNavigationBar from 'react-native-system-navigation-bar';
-import { AccountSettingsPages, CouponPages, MyComments, MyOrders, ShareWinPages } from 'pages';
+import { AccountSettingsPages, CouponPages, MyComments, MyOrders, NotificationsPages, ShareWinPages } from 'pages';
 import { AccountScreen, CategoryScreen, HomeScreen, ListsScreen, ShopingCartScreen } from 'screens';
 SystemNavigationBar.setNavigationColor(colors.white);
 export function Container() {
@@ -138,28 +138,32 @@ function AccountStackScreen() {
           headerShown: "true"
         }}
         name="AccountSettingsPages"
-        component={AccountSettingsPages} />
+        component={AccountSettingsPages}
+      />
       <AccountStack.Screen
         options={{
           title: "Kuponlarım",
           headerShown: "true"
         }}
         name="CouponPages"
-        component={CouponPages} />
+        component={CouponPages}
+      />
       <AccountStack.Screen
         options={{
           title: "Siparişlerim",
           headerShown: "true"
         }}
         name="MyOrders"
-        component={MyOrders} />
+        component={MyOrders}
+      />
       <AccountStack.Screen
         options={{
           title: "Yorumlarım",
           headerShown: "true"
         }}
         name="MyComments"
-        component={MyComments} />
+        component={MyComments}
+      />
       <AccountStack.Screen
         options={{
           title: "Paylaş Kazan",
@@ -167,6 +171,23 @@ function AccountStackScreen() {
           headerShown: "true"
         }}
         name="ShareWinPages"
-        component={ShareWinPages} />
+        component={ShareWinPages}
+      />
+      <AccountStack.Screen
+        options={{
+          title: "Bildirimlerim",
+          headerShown: "true",
+          headerRight: () => (
+            <Image
+              source={Search}
+              style={{
+                width: 21,
+                height: 21,
+                tintColor: colors.black
+              }} />),
+        }}
+        name="NotificationsPages"
+        component={NotificationsPages}
+      />
     </AccountStack.Navigator>);
 }

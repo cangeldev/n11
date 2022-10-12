@@ -79,8 +79,7 @@ export function CommentsCard() {
                     color={colors.blue}
                 />
             </View>
-            <View
-                style={[style.line, { marginVertical: 20 }]} />
+            <View style={[style.line, { marginVertical: 20 }]} />
             <View
                 style={style.infoView}>
                 <View

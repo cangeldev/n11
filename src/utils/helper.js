@@ -1,4 +1,4 @@
-import { Info1, Info2, Info3, Info4, L1, L10, L11, L12, L13, L14, L15, L16, L17, L18, L19, L2, L20, L21, L22, L23, L24, L25, L26, L3, L4, L5, L6, L7, L8, L9 } from 'assets';
+import { Check, Info1, Info2, Info3, Info4, L1, L10, L11, L12, L13, L14, L15, L16, L17, L18, L19, L2, L20, L21, L22, L23, L24, L25, L26, L3, L4, L5, L6, L7, L8, L9, QuestionImage } from 'assets';
 import { M1, M10, M12, M13, M14, M15, M16, M17, M18, M19, M2, M20, M21, M22, M23, M24, M25, M3, M4, M5, M6, M7, M8, M9 } from 'assets'
 import { Adidas, Flo, Hasbro, Mavi, Nivea, Nike } from 'assets'
 export const list = [
@@ -10,9 +10,9 @@ export const list = [
     { key: 6, value: L6, text: "Bildirimlerim", colorsPath: "#000", navigationPath: "NotificationsPages" },
     { key: 7, value: L7, text: "Garajım", colorsPath: "#ee9a49", navigationPath: "MyGaragePages" },
     { key: 8, value: L8, text: "Pet11'e Kayıtlı Dostlarım", colorsPath: "#bc8f8f", navigationPath: "MyFriendsPages" },
-    { key: 9, value: L4, text: "Ürün Yorumlarım", colorsPath: "#32cd32", navigationPath: "MyFriendsPages" },
-    { key: 10, value: L9, text: "Takip Ettiğim Mağazalar", colorsPath: "#cdcd00" },
-    { key: 11, value: L10, text: "Son Baktıklarım", colorsPath: "#8b3e2f" },
+    { key: 9, value: L4, text: "Ürün Sorularım", colorsPath: "#32cd32", navigationPath: "MyQuestionsPages" },
+    { key: 10, value: L9, text: "Takip Ettiğim Mağazalar", colorsPath: "#cdcd00", navigationPath: "MyQuestionsPages" },
+    { key: 11, value: L10, text: "Son Baktıklarım", colorsPath: "#8b3e2f", navigationPath: "MyQuestionsPages" },
     { key: 12, value: L11, text: "Eşle Kazan", colorsPath: "#eecfa1" },
     { key: 13, value: L12, text: "Kuponmatik", colorsPath: "#087EB0" },
     { key: 14, value: L13, text: "Süper Fırsatlar", colorsPath: "#cc5a11" },
@@ -271,4 +271,15 @@ export const notificationsList = [
         date: "4 gün önce"
     },
 
+]
+export const questionsList = [
+    {
+        id: 1,
+        value: QuestionImage,
+        status: Check,
+        text: "Microsoft Windows 10 Home 32&64Bit Dijital İndirilebilir Lisans",
+        question: "İyi akşamlar Keyler tekrardan kullanılabilir mi?",
+        date: "28/11/2018",
+        brand: "WinKeyWorld"
+    },
 ]

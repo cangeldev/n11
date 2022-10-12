@@ -7,7 +7,7 @@ import colors from 'assets/colors/colors';
 import IconI from "react-native-vector-icons/Ionicons";
 import { Home, HomeFocused, Search, User, UserFocused } from 'assets'
 import SystemNavigationBar from 'react-native-system-navigation-bar';
-import { AccountSettingsPages, CouponPages, MyComments, MyFriendsPages, MyGaragePages, MyOrders, NotificationsPages, ShareWinPages } from 'pages';
+import { AccountSettingsPages, CouponPages, MyComments, MyFriendsPages, MyGaragePages, MyOrders, MyQuestionsPages, NotificationsPages, ShareWinPages } from 'pages';
 import { AccountScreen, CategoryScreen, HomeScreen, ListsScreen, ShopingCartScreen } from 'screens';
 SystemNavigationBar.setNavigationColor(colors.white);
 export function Container() {
@@ -220,6 +220,22 @@ function AccountStackScreen() {
         }}
         name="MyFriendsPages"
         component={MyFriendsPages}
+      />
+      <AccountStack.Screen
+        options={{
+          title: "Ürün Sorularım",
+          headerShown: "true",
+          headerRight: () => (
+            <Image
+              source={Search}
+              style={{
+                width: 21,
+                height: 21,
+                tintColor: colors.black
+              }} />),
+        }}
+        name="MyQuestionsPages"
+        component={MyQuestionsPages}
       />
     </AccountStack.Navigator>);
 }

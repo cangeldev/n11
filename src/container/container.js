@@ -7,7 +7,7 @@ import colors from 'assets/colors/colors';
 import IconI from "react-native-vector-icons/Ionicons";
 import { Home, HomeFocused, Search, User, UserFocused } from 'assets'
 import SystemNavigationBar from 'react-native-system-navigation-bar';
-import { AccountSettingsPages, CouponPages, MyComments, MyOrders, NotificationsPages, ShareWinPages } from 'pages';
+import { AccountSettingsPages, CouponPages, MyComments, MyGaragePages, MyOrders, NotificationsPages, ShareWinPages } from 'pages';
 import { AccountScreen, CategoryScreen, HomeScreen, ListsScreen, ShopingCartScreen } from 'screens';
 SystemNavigationBar.setNavigationColor(colors.white);
 export function Container() {
@@ -188,6 +188,22 @@ function AccountStackScreen() {
         }}
         name="NotificationsPages"
         component={NotificationsPages}
+      />
+      <AccountStack.Screen
+        options={{
+          title: "Garajım",
+          headerShown: "true",
+          headerRight: () => (
+            <Image
+              source={Search}
+              style={{
+                width: 21,
+                height: 21,
+                tintColor: colors.black
+              }} />),
+        }}
+        name="MyGaragePages"
+        component={MyGaragePages}
       />
     </AccountStack.Navigator>);
 }

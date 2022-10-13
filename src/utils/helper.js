@@ -1,4 +1,4 @@
-import { Check, Info1, Info2, Info3, Info4, L1, L10, L11, L12, L13, L14, L15, L16, L17, L18, L19, L2, L20, L21, L22, L23, L24, L25, L26, L3, L4, L5, L6, L7, L8, L9, QuestionImage } from 'assets';
+import { AboutUsList1, AboutUsList2, AboutUsList3, AboutUsList4, AboutUsList5, Check, Info1, Info2, Info3, Info4, L1, L10, L11, L12, L13, L14, L15, L16, L17, L18, L19, L2, L20, L21, L22, L23, L24, L25, L26, L3, L4, L5, L6, L7, L8, L9, QuestionImage } from 'assets';
 import { M1, M10, M12, M13, M14, M15, M16, M17, M18, M19, M2, M20, M21, M22, M23, M24, M25, M3, M4, M5, M6, M7, M8, M9 } from 'assets'
 import { Adidas, Flo, Hasbro, Mavi, Nivea, Nike } from 'assets'
 export const list = [
@@ -286,31 +286,31 @@ export const questionsList = [
 export const aboutUsList = [
     {
         id: 1,
-        value: QuestionImage,
+        value: AboutUsList1,
         title: "300 Binden Fazla Kayıtlı İş ortağı",
         text: "Türkiye'nin dört bir yanındaki satıcılardan alışveriş yapın.",
     },
     {
         id: 2,
-        value: QuestionImage,
+        value: AboutUsList2,
         title: "Milyonlarca Ürün",
         text: "İhtiyaçlarınızı bol seçenek arasından gece-gündüz fark etmeden alın.",
     },
     {
         id: 3,
-        value: QuestionImage,
+        value: AboutUsList3,
         title: "7/24 Destek",
         text: "Sorularınız için Canlı Destek hizmetimize bağlanıp dilediğiniz an bize ulaşın.",
     },
     {
         id: 4,
-        value: QuestionImage,
+        value: AboutUsList4,
         title: "Güvenli Alışveriş",
         text: "Ürünü teslim aldıktan sonra ödemeiz sizin onayınızca satıcıya aktarılsın.",
     },
     {
         id: 5,
-        value: QuestionImage,
+        value: AboutUsList5,
         title: "24 Milyondan Fazla Kayıtlı Kullanıcı",
         text: "Siz de n11 ailesine katılın, üyelerimiz gibi size özel avantaj ve kampanyalardan yararlanın.",
     },

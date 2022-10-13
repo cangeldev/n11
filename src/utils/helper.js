@@ -18,11 +18,11 @@ export const list = [
     { key: 14, value: L13, text: "Süper Fırsatlar", colorsPath: "#cc5a11" },
     { key: 15, value: L14, text: "Çok Satanlar", colorsPath: "#8b0a50" },
     { key: 16, value: L15, text: "Hediye Rehberi", colorsPath: "#800000" },
-    { key: 17, value: L16, text: "Yurt Dışından Ürünler", colorsPath: "#8b008b" },
-    { key: 18, value: L17, text: "Bildirim Ayarları", colorsPath: "#00ced1" },
-    { key: 19, value: L18, text: "Canlı Destek", colorsPath: "#a2cd5a" },
-    { key: 20, value: L19, text: "Geri Bildirim", colorsPath: "#008080" },
-    { key: 21, value: L20, text: "Yardım", colorsPath: "#ffcc99" },
+    { key: 17, value: L16, text: "Yurt Dışından Ürünler", colorsPath: "#8b008b", navigationPath: "HelpPages" },
+    { key: 18, value: L17, text: "Bildirim Ayarları", colorsPath: "#00ced1", navigationPath: "HelpPages" },
+    { key: 19, value: L18, text: "Canlı Destek", colorsPath: "#a2cd5a", navigationPath: "HelpPages" },
+    { key: 20, value: L19, text: "Geri Bildirim", colorsPath: "#008080", navigationPath: "HelpPages" },
+    { key: 21, value: L20, text: "Yardım", colorsPath: "#ffcc99", navigationPath: "HelpPages" },
     { key: 22, value: L21, text: "Hakkımızda", colorsPath: "#ee9a49", navigationPath: "AboutUsPages" },
     { key: 23, value: L22, text: "Adreslerim", colorsPath: "#087EB0" },
     { key: 24, value: L23, text: "Şifre Değiştir", colorsPath: "#ee2c2c" },
@@ -313,5 +313,147 @@ export const aboutUsList = [
         value: AboutUsList5,
         title: "24 Milyondan Fazla Kayıtlı Kullanıcı",
         text: "Siz de n11 ailesine katılın, üyelerimiz gibi size özel avantaj ve kampanyalardan yararlanın.",
+    },
+]
+export const helpList = [
+    {
+        id: 1,
+        title: "Şifremi nasıl değiştirebilirim?",
+        text: "Şifrenizi, Hesap Ayarları sayfasından Şifre Değiştir sekmesinden değiştirebilirsiniz.\n\nBelirlediğiniz şifre;\n● En az 6, en fazla 15 karakterden oluşmalı,\n● ! @, $, %, ^, &, * karakterleri yer almamalı,\n● Sadece rakamlardan oluşmamalı,\n● Türkçe karakterler bulunmamalı,\n● Aynı karakterden 3 ve daha fazlasını bulundurmamalıdır.",
+    },
+    {
+        id: 2,
+        title: "Adres bilgilerimi nasıl güncelleyebilirim?",
+        text: "Hesap ayarlarım sayfasındaki Adreslerim sekmesinden kayıtlı adresleri görebilirsiniz. Düzenle linkini tıklayarak o adres bilgilerini düzenleyebilirsiniz.",
+    },
+    {
+        id: 3,
+        title: "Üyelik e-posta adresini değiştirebilir miyim?",
+        text: "Üyelik e-posta adres değişikliği için Hesabım menüsü > Üyelik Bilgilerim > E-Posta alanına kullanmak istediğiniz yeni adresinizi yazarak bilgileri güncelleyebilirsiniz.",
+    },
+    {
+        id: 4,
+        title: "Kargomu nasıl takip edebilirim?",
+        text: 'Mağaza, siparişinizi kargoya verdiği zaman size bir e-posta gönderilir. Bu e-postadaki kargo bilgileriyle gönderiyi takip edebilirsiniz. Ayrıca Siparişlerim sayfasından "KARGO TAKİP" linkini tıklayarak veya kargo şirketinin internet sitesinden siparişinizi takip edebilirsiniz.',
+    },
+    {
+        id: 5,
+        title: "Sipariş ettiğim ürünün kargo süresi ne kadardır?",
+        text: "Ürün sayfasında Kargo Detayı bölümünde o ürünün en geç hangi tarihte kargoya verileceği bilgisi yer alır. Mağaza, ürünü kargoya verdiği zaman bir e-postayla size bilgi verilir. Bu e-postadaki kargo bilgileriyle gönderiyi takip edebilirsiniz. Ürün kargoya verildikten sonraki 3 iş günü sonunda hâlâ size ulaşmadıysa kargo firması ve mağaza ile görüşmeniz gerekmektedir. Ürün detay sayfasındaki Mağazaya Soru Sor alanından mağazayla iletişime geçebilirsiniz. Kargoyla ilgili bir sorun yaşanıyorsa mağaza, kargo şirketi ile görüşerek sorunu çözebilir.\n\nNot: Kargo firmaları ile yapılan gönderimlerde, ortalama teslim süresi 2 iş günüdür.",
+    },
+    {
+        id: 6,
+        title: "Birden fazla ürün satın aldığımda. hepsi birlikte gönderilebilir mi?",
+        text: "Aynı mağazadan satın aldığınız ürünler, tedarik süreleri farklı değilse tek kargoyla birlikte gönderilir. Farklı mağazalardan alınan ürünler için tek kargo ile gönderim yapılmamaktadır. ",
+    },
+    {
+        id: 7,
+        title: "Taksit bilgisini nerden öğrenebilirim?",
+        text: "Ürün detay sayfasındaki Taksitler alanını tıklayarak o üründeki taksit seçeneklerini görebilirsiniz. Aynı şekilde Ödeme sayfasının sağ üst köşesindeki Taksitler linkinden de taksit bilgisine ulaşabilirsiniz. Ödeme sayfasında ayrıca kart bilgilerinizi girdikten sonra “Taksit Seçin” alanından da seçenekleri görüp seçiminizi yapabilirsiniz.",
+    },
+    {
+        id: 8,
+        title: "Mağaza ile nasıl irtibata geçerim?",
+        text: "Ürün detay sayfasındaki Mağazaya Soru Sor alanından mağazayla iletişime geçebilirsiniz.",
+    },
+    {
+        id: 9,
+        title: "Mağazaya sorduğum soruları nasıl görebilirim?",
+        text: "Mobil uygulamada sorduğunuz soruları, o ürünün detay sayfasındaki Mağazaya Soru Sor alanından görebilirsiniz. Mağaza sorunuzu cevapladığında size gönderilen e-postadan bilgi alabilirsiniz.",
+    },
+    {
+        id: 10,
+        title: "Ürünlerin orijinalliği ve garanti durumu hakkında bilgi alabilir miyim?",
+        text: "n11’de yer alan ürünler, çeşitli mağazalar tarafından satışa sunulur. Dolayısıyla satın aldığınız ürünler, satıcı firmaların garantisi kapsamında ve sorumluluğundadır. Garanti belgesinde yer alan irtibat numarasından firmayla irtibata geçebilirsiniz.\n\nÖnemli Not: Satılmaya uygun olmayan ürün tespit etmeniz durumunda, satışı yapan mağaza ve ürün bilgilerini bize iletebilirsiniz.",
+    },
+    {
+        id: 11,
+        title: "Ürün hasarlı, eksik veya farklı geldi; ne yapmam gerekiyor?",
+        text: "Kargo paketinde veya üründe fark edilir şekilde hasar, darbe, kırık olması durumunda kargo görevlisine hasar tespit tutanağı düzenletmeniz gerekmektedir. Ürünü teslim almadan görevliye kapıda iade edebilirsiniz. Ürünün eksik, hatalı veya belirtilenden farklı çıkması durumunda n11 web sitesine girip Hesabım > Mevcut Sipariş sayfasında iade / değişim talebinde bulunabilirsiniz. İade ve değişim işlemleri, mobil uygulamadan yapılamamaktadır.",
+    },
+    {
+        id: 12,
+        title: "Siparişi iptal edebilir miyim?",
+        text: "Mobil uygulamada Siparişlerim sayfasına girip Tümünü İptal Et linkini tıklayarak tüm siparişi iptal edebilirsiniz. Siparişinizde çıkarmak istediğiniz ürünü iptal etmek için Siparişlerim sayfasındaki Sipariş Detayı linkini tıklayın. Sipariş Detayında ilgili ürünün altındaki İptal Et butonuna basarak ürünü iptal edebilirsiniz. İptal işlemi sonrasında ürün bedeli, kredi kartınız veya banka kartınız üzerinden ortalama 3 iş günü içerisinde size kesintisiz olarak iade edilecektir.",
+    },
+    {
+        id: 13,
+        title: "Mağaza ürünü onayladıktan sonra siparişimi iptal edebilir miyim?",
+        text: "Mağaza siparişi onayladıktan sonra iptal talebinde bulunabilirsiniz. Mobil uygulamada Siparişlerim sayfasına girip Sipariş Detayı linkini tıklayın. Sipariş Detayında İptal Talep Et butonuna basarak mağazaya iptal talebinizi iletebilirsiniz. Mağaza tarafından henüz kargoya verilmeyen ürünler için iptal talebi onaylanır. Mağaza ürünü kargoya verdiyse iptal talebinizi reddedebilir. Bu durumda ürünü iade edebilirsiniz.",
+    },
+    {
+        id: 14,
+        title: "Ürünü nasıl iade edebilirim?",
+        text: "Satın aldığınız ürünü, herhangi bir sebep göstermeksizin 14 gün içerisinde iade edebilirsiniz. İade işlemi, mobil uygulamadan yapılamamaktadır. n11 web sitesine girip Hesabım > Mevcut Sipariş sayfasından Ürün İade butonuna basarak iade talebinde bulunabilirsiniz.",
+    },
+    {
+        id: 15,
+        title: "Ürünü nasıl değiştirebilirim?",
+        text: "Değişim işlemi, mobil uygulamadan yapılamamaktadır. n11 web sitesine girip Hesabım > Mevcut Sipariş sayfasından Ürün Değişim butonuna basarak değişim talebinde bulunabilirsiniz.",
+    },
+    {
+        id: 16,
+        title: "Cayma Hakkı nasıl kullanılır?",
+        text: "Alıcının (müşterinin), teslimat tarihinden itibaren 14 gün içinde cayma hakkını kullanarak ürünü iade etmek istediğini satıcıya (mağazaya) bildirmesi gerekmektedir. Mağaza, müşterinin talebini aldıktan sonra en geç 10 (on) gün içerisinde, ürünü iade alıp ürün bedelini müşteriye hiçbir masraf yükletmeksizin iade etmekle ve iade kargo ücretini ödemekle yükümlüdür. n11 Ödeme Koruma Sistemine göre ürün bedeli mağazaya aktarılmış olsa bile, cayma hakkı gereğince müşteri, ürünü iade edip parasını geri alma hakkına sahiptir.",
+    },
+    {
+        id: 17,
+        title: "İade / değişim durumunda para iadesi ne zaman yapılır?",
+        text: "İade tutarı, bankanızın süreç ve uygulamalarına bağlı olarak 2 ila 4 gün içerisinde kartınıza artı bakiye olarak yansıyacaktır.",
+    },
+    {
+        id: 18,
+        title: "Taksitli alışverişimin iadesi nasıl yapılır?",
+        text: "Taksitli yapılan alışverişlerin iadeleri, banka prosedürleri gereği, taksit süresi ve ilgili taksit tutarlarına göre yapılır. Para iadesi tutarına n11 puan ve vade farkı da dahildir.",
+    },
+    {
+        id: 19,
+        title: "Alışverişte kullanığım puan ve kupon iade edilecek mi?",
+        text: "Kupon kullandığınız alışverişin tamamını veya bir kısmını iptal ettiğinizde, iptal edilen ürün/ürünlerde kullanılan indirim tutarı kadar kupon, hesabınıza geri yüklenir. Geri yüklenen kuponun kullanımı için gerekli minimum sepet tutarı, orijinal kuponun kullanımı için kampanya koşullarında belirtilen minimum sepet tutarındaki oranla aynıdır. Ayrıca geri yüklenen kuponun kalan kullanım süresi, alışveriş yaptığınız tarih ile kupon son kullanım tarihi arasındaki süre kadar olacaktır.",
+    },
+    {
+        id: 20,
+        title: "Siparişim elime ulaşmadı, ne yapmalıyım?",
+        text: "Siparişiniz onaylandığı halde ürün elinize ulaşmadıysa ürün sayfasında yer alan Mağazaya Soru Sor alanından mağazayla iletişime geçebilirsiniz. Mağazaya ulaşamıyorsanız Çağrı Merkezimizle görüşebilirsiniz. Mağaza siparişi kargoya verdiyse gecikme kargo firmasından kaynaklanmış olabilir. Kargo Takip linki tıklayarak siparişinizin nerede olduğunu görebilirsiniz. n11 web sitesinden Hesabım > Mevcut Sipariş sayfasından Ertele butonuna basarak onay sürecini uzatabilirsiniz.",
+    },
+    {
+        id: 21,
+        title: "Onay sürecini ertelediğimde ne olacak?",
+        text: "Ertele butonuna bastığınızda sipariş onay süreci, 3 iş günü + 24 saat uzatılır. Bu süre içerisinde siparişinizi onayladığınızda alışveriş tamamlanır ve ürün bedeli, mağazaya aktarılır. Siparişi onaylamadığınızda sistem otomatik olarak onay verir.",
+    },
+    {
+        id: 22,
+        title: "Siparişe nasıl onay veriyorum?",
+        text: "Mobil uygulamada Siparişlerim sayfasındaki Sipariş Detayı linkini tıklayın. Sipariş Detayında Alışverişi Tamamla butonuna basmanız yeterlidir. Onayınızın ardından ürün bedeli, mağazanın hesabına aktarılır.",
+    },
+    {
+        id: 23,
+        title: "Nasıl yorum yazabilirim?",
+        text: "Mobil uygulamada Siparişlerim sayfasındaki Sipariş Detayını linkini tıklayıp Yorum Yap butonuna basarak yorum yazabilirsiniz. Yorum alanından hem mağaza hem de ürünle ilgili görüşlerinizi paylaşarak diğer kullanıcılara yardımcı olursunuz. Mağaza hakkında yaptığınız değerlendirme, mağazanın puanını etkiler.",
+    },
+    {
+        id: 24,
+        title: "Kuponlarımı nasıl kullanabilirim?",
+        text: "Mobil uygulamada Sepetim sayfasında Kupon/Puan kullan alanına tıklayın. Açılan sayfada kupon kodunu girip ekleyin veya kullanmak istediğiniz kuponu seçip “İndirimi Uygula” butonuna basın.\n\nÖnemli Not: Her ürün için sadece 1 adet mağaza kuponu veya 1 adet n11 kuponu kullanabilirsiniz.",
+    },
+    {
+        id: 25,
+        title: "Kapıda Ödeme yapabilir miyim?",
+        text: "n11'de ödemenizi banka (ATM) kartı, kredi kartı, sanal kart, BKM Express ve GarantiPay ile yapabilirsiniz. Ödeme Koruma Sistemi gereği kapıda ödeme seçeneği bulunmamaktadır.",
+    },
+    {
+        id: 26,
+        title: "3D Secure neden güvenlidir?",
+        text: "3D Secure sistemiyle yapılan alışverişin geçerli sayılabilmesi için; kart sahibinin, yapılan işlemi, banka tarafından kendine verilen özel bir ödeme şifresiyle onaylaması gerekir. Yani kredi kartı numaranız başkaları tarafından biliniyor olsa bile şifreniz sadece sizde olduğundan internet ortamında güvenli alışveriş yaparsınız.",
+    },
+    {
+        id: 27,
+        title: "İnternette güvenli alışveriş için nasıl yöntemler almam lazım?",
+        text: "Bunları Yapın\n● Güvenilirliğine inandığınız e-ticaret sitelerinden alışveriş yapın.\n● Alışverişinizin kaydını tutun, e-postaları saklayın.\n● Alışverişten önce teslimat ve iptal/iade/değişim koşullarını okuyun.\n● Sorularınız için telefon numaralarını veya e-posta adreslerini kaydedin.\n● Cihazlarınızda mutlaka güncel bir virüs programı kullanın.\n● Harf ve rakamlardan oluşan bir şifre belirleyin. Şifrenizi belirli sürelerde güncelleyin.\n\nBunları Yapmayın\n● Tanımadığınız kişilerden gelen e-postaları veya Facebook hesabınıza gelen mesajları açmayın.\n● Bilmediğiniz USB ve benzeri cihazları bilgisayarınızda kullanmayın.\n● Şifre bilgilerinizi kimseyle paylaşmayın, bir yere kaydetmeyin.\n● Kart bilgilerinizi, telefonunuza gelen SMS kodları, sitelere ait bilgilerinizi kimseyle paylaşmayın. Kredi kartınızı birine teslim etmeyin.\n● Kişisel/kart bilgilerinizi girmeniz için herhangi br siteye yönlendiren e-posta ya da SMS’ler alıyorsanız, kesinlikle itibar etmeyin.\n● Herkese açık kablosuz ağlardan veya ortak bilgisayarların bulunduğu ortamlarda alışveriş yapmayın.\n\nBunlara Dikkat Edin.\n● Alışveriş yaptığınızı sitenin ödeme aşamasında link kısmının http’den https’ye dönüştüğüne dikkat edin.\n● Kullandığınız teknolojik cihazlara uygulama indirmeden önce mutlaka bilgi alın.\n● Çeşitli bahanelerle kredi kartı bilgisi veya kişisel bilgilerinizi almaya çalışan sahte çağrı merkezi aramalarına karşı dikkatli olun.",
+    },
+    {
+        id: 28,
+        title: "n11 güvenli alışverişiçin neler yapıyor?",
+        text: "Kredi Kartı ve Ödeme\n● Kredi kartı bilgilerinizden sadece adınız ve soyadınız saklanıyor. Başka hiçbir bilgi n11 bünyesinde saklanmıyor.\n● Ödeme ekranları ile bankalar arasındaki kredi kartı bilgisinin de dâhil olduğu veri alışverişi, tamamen kriptolanmış bir trafik ile iletiliyor.\n● Kredi kartıyla yaptığınız alışverişlerde kişisel bilgilerinizi girdiğiniz her sayfada, güvenliğiniz için son teknolojiler kullanılıyor. Her tarayıcının altında bulunan anahtar, buna işarettir. \n● Kullanıcılara kredi kartı, bankamatik ve sanal kartlarla birlikte BKM Express, GarantiPay ve MasterPass uygulamaları ile hızlı ve güvenli ödeme yapmaları sağlanıyor.\n● Kullanıcılar, bankaların güvenli ödeme altyapısı “3D Secure Sistemi”ni kullanabiliyor.\n● n11, kullanıcılarından e-posta yoluyla kredi kartı ve şifre bilgilerini kesinlikle talep etmez.\n\n Sahtecilik\n● n11, kullandığı yazılımlar ve 100’den fazla fraud (sahtecilik) kontrol filtresi ile maksimum seviyede güvenliği garanti ediyor. Bu filtreler ile, alışverişlerde oluşabilecek sahteciliğe karşı hem kullanıcılarını hem de kendisini koruma altına alıyor.\n● Kullanılan fraud (sahtecilik) filtreleri ile beraber sitenin bünyesinde barındırdığı “Fraud Birimi” sayesinde yapılan ödemeler güvenlik kontrollerinden geçiriliyor. Gerek görülürse kullanıcılar aranarak güvenlik kontrolünden geçiriliyor. Bu sayede sahtecilik minimum seviyeye indiriliyor ve mağduriyetler gideriliyor.\n\nDestek\n● n11’in, kullanıcılarına daha iyi ve daha hızlı hizmet verebilmek için kurduğu bir Çağrı Merkezi bulunuyor. Kullanıcılar haftanın yedi günü kesintisiz olarak telefonla kolay ve hızlı bir şekilde istedikleri konu hakkında bu merkezden destek alabiliyor.\n● n11’e yeni üye olacak kullanıcılara, şifre güvenliği için kolay tahmin edilebilen veya kırılabilen şifreleri seçmemeleri için gerekli sistem ayarları ve uyarıları yapılıyor.\n\n%99,9 Koruma\n● n11, SSL bağlantısını TLS V1.2 ile kuruyor. Bankanın ve n11’in kullandığı sertifika ise RSA kriptolama ile SHA256’dır ve anahtar boyutu 2048k’dır. Bu, mümkün olan en iyi şifrelemedir ve tavsiye edilen minimum değerlerin üzerindedir.\n● n11’in çalıştığı bankalar PCI (Payment Card Industry) zorlaması ile siteyi her çeyrekte zafiyet tarama testinden geçiriyor. En son yapılan zafiyet tarama testi, 30 Eylül 2016 tarihinde çalışılan tüm bankalara PCI-QSA sertifikası olan firma tarafından iletildi. n11, tüm zafiyet taraması testlerinden temiz raporu aldı.",
     },
 ]

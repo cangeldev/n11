@@ -23,14 +23,13 @@ export const list = [
     { key: 19, value: L18, text: "Canlı Destek", colorsPath: "#a2cd5a" },
     { key: 20, value: L19, text: "Geri Bildirim", colorsPath: "#008080" },
     { key: 21, value: L20, text: "Yardım", colorsPath: "#ffcc99" },
-    { key: 22, value: L21, text: "Hakkımızda", colorsPath: "#ee9a49" },
+    { key: 22, value: L21, text: "Hakkımızda", colorsPath: "#ee9a49", navigationPath: "AboutUsPages" },
     { key: 23, value: L22, text: "Adreslerim", colorsPath: "#087EB0" },
     { key: 24, value: L23, text: "Şifre Değiştir", colorsPath: "#ee2c2c" },
     { key: 25, value: L24, text: "Ödeme Seçeneklerim", colorsPath: "#ba55d3" },
     { key: 26, value: L25, text: "Kullanıcı Sözleşmeleri", colorsPath: "#8b3e2f" },
     { key: 27, value: L26, text: "Çıkış Yap", colorsPath: "#087EB0" },
 ]
-
 export const categoryListe = [
     { key: 1, value: M1, text: "Moda & Giyim" },
     { key: 2, value: M2, text: "Elektronik" },
@@ -281,5 +280,38 @@ export const questionsList = [
         question: "İyi akşamlar Keyler tekrardan kullanılabilir mi?",
         date: "28/11/2018",
         brand: "WinKeyWorld"
+    },
+]
+
+export const aboutUsList = [
+    {
+        id: 1,
+        value: QuestionImage,
+        title: "300 Binden Fazla Kayıtlı İş ortağı",
+        text: "Türkiye'nin dört bir yanındaki satıcılardan alışveriş yapın.",
+    },
+    {
+        id: 2,
+        value: QuestionImage,
+        title: "Milyonlarca Ürün",
+        text: "İhtiyaçlarınızı bol seçenek arasından gece-gündüz fark etmeden alın.",
+    },
+    {
+        id: 3,
+        value: QuestionImage,
+        title: "7/24 Destek",
+        text: "Sorularınız için Canlı Destek hizmetimize bağlanıp dilediğiniz an bize ulaşın.",
+    },
+    {
+        id: 4,
+        value: QuestionImage,
+        title: "Güvenli Alışveriş",
+        text: "Ürünü teslim aldıktan sonra ödemeiz sizin onayınızca satıcıya aktarılsın.",
+    },
+    {
+        id: 5,
+        value: QuestionImage,
+        title: "24 Milyondan Fazla Kayıtlı Kullanıcı",
+        text: "Siz de n11 ailesine katılın, üyelerimiz gibi size özel avantaj ve kampanyalardan yararlanın.",
     },
 ]

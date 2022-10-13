@@ -2,7 +2,7 @@ import colors from "assets/colors/colors";
 import { StyleSheet } from "react-native";
 export default StyleSheet.create({
     container: {
-        backgroundColor: colors.lightGreen,
+        backgroundColor: colors.buttonLightGreen,
         width: "92%",
         height: 45,
         borderRadius: 10,

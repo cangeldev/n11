@@ -10,6 +10,7 @@ export default {
     star: "#ffa900",
     darkGreen: "#0c9741",
     lightGreen: "#0fbc49",
+    buttonLightGreen: "#3fca2f",
     screenBackground: "#eeeff2",
     backgroundGrey: "#e9eaee",
     textColor: "#191919",

@@ -1,6 +1,8 @@
 export const HomeFocused = require("./images/otherImages/homeFocused.png");
 export const Home = require("./images/otherImages/home.png");
 export const Search = require("./images/otherImages/search.png");
+export const N11 = require("./images/otherImages/n11.png");
+export const AboutUsList1 = require("./images/otherImages/aboutUsList1.png");
 export const Close = require("./images/otherImages/close.png");
 export const followStorePages = require("./images/otherImages/followStorePages.png");
 export const QuestionImage = require("./images/otherImages/questionImage.png");

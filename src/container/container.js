@@ -9,6 +9,7 @@ import { Home, HomeFocused, Search, User, UserFocused } from 'assets'
 import SystemNavigationBar from 'react-native-system-navigation-bar';
 import { AccountSettingsPages, CouponPages, FollowStorePages, MyComments, MyFriendsPages, MyGaragePages, MyOrders, MyQuestionsPages, NotificationsPages, ShareWinPages } from 'pages';
 import { AccountScreen, CategoryScreen, HomeScreen, ListsScreen, ShopingCartScreen } from 'screens';
+import { AboutUsPages } from 'pages/aboutUsPages';
 SystemNavigationBar.setNavigationColor(colors.white);
 export function Container() {
   const Tab = createBottomTabNavigator();
@@ -244,6 +245,22 @@ function AccountStackScreen() {
         }}
         name="FollowStorePages"
         component={FollowStorePages}
+      />
+      <AccountStack.Screen
+        options={{
+          title: "Hakkımızda",
+          headerShown: "true",
+          headerRight: () => (
+            <Image
+              source={Search}
+              style={{
+                width: 21,
+                height: 21,
+                tintColor: colors.black
+              }} />),
+        }}
+        name="AboutUsPages"
+        component={AboutUsPages}
       />
     </AccountStack.Navigator>);
 }

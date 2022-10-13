@@ -2,6 +2,7 @@ export const HomeFocused = require("./images/otherImages/homeFocused.png");
 export const Home = require("./images/otherImages/home.png");
 export const Search = require("./images/otherImages/search.png");
 export const Close = require("./images/otherImages/close.png");
+export const followStorePages = require("./images/otherImages/followStorePages.png");
 export const QuestionImage = require("./images/otherImages/questionImage.png");
 export const Check = require("./images/otherImages/check.png");
 export const Garage = require("./images/otherImages/garage.png");

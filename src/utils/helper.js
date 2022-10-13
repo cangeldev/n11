@@ -11,7 +11,7 @@ export const list = [
     { key: 7, value: L7, text: "Garajım", colorsPath: "#ee9a49", navigationPath: "MyGaragePages" },
     { key: 8, value: L8, text: "Pet11'e Kayıtlı Dostlarım", colorsPath: "#bc8f8f", navigationPath: "MyFriendsPages" },
     { key: 9, value: L4, text: "Ürün Sorularım", colorsPath: "#32cd32", navigationPath: "MyQuestionsPages" },
-    { key: 10, value: L9, text: "Takip Ettiğim Mağazalar", colorsPath: "#cdcd00", navigationPath: "MyQuestionsPages" },
+    { key: 10, value: L9, text: "Takip Ettiğim Mağazalar", colorsPath: "#cdcd00", navigationPath: "FollowStorePages" },
     { key: 11, value: L10, text: "Son Baktıklarım", colorsPath: "#8b3e2f", navigationPath: "MyQuestionsPages" },
     { key: 12, value: L11, text: "Eşle Kazan", colorsPath: "#eecfa1" },
     { key: 13, value: L12, text: "Kuponmatik", colorsPath: "#087EB0" },

@@ -19,7 +19,7 @@ export const list = [
     { key: 15, value: L14, text: "Çok Satanlar", colorsPath: "#8b0a50" },
     { key: 16, value: L15, text: "Hediye Rehberi", colorsPath: "#800000" },
     { key: 17, value: L16, text: "Yurt Dışından Ürünler", colorsPath: "#8b008b", navigationPath: "HelpPages" },
-    { key: 18, value: L17, text: "Bildirim Ayarları", colorsPath: "#00ced1", navigationPath: "HelpPages" },
+    { key: 18, value: L17, text: "Bildirim Ayarları", colorsPath: "#00ced1", navigationPath: "NotificationSettingsPages" },
     { key: 19, value: L18, text: "Canlı Destek", colorsPath: "#a2cd5a", navigationPath: "HelpPages" },
     { key: 20, value: L19, text: "Geri Bildirim", colorsPath: "#008080", navigationPath: "FeedbackPages" },
     { key: 21, value: L20, text: "Yardım", colorsPath: "#ffcc99", navigationPath: "HelpPages" },

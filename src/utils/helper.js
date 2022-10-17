@@ -21,7 +21,7 @@ export const list = [
     { key: 17, value: L16, text: "Yurt Dışından Ürünler", colorsPath: "#8b008b", navigationPath: "HelpPages" },
     { key: 18, value: L17, text: "Bildirim Ayarları", colorsPath: "#00ced1", navigationPath: "HelpPages" },
     { key: 19, value: L18, text: "Canlı Destek", colorsPath: "#a2cd5a", navigationPath: "HelpPages" },
-    { key: 20, value: L19, text: "Geri Bildirim", colorsPath: "#008080", navigationPath: "HelpPages" },
+    { key: 20, value: L19, text: "Geri Bildirim", colorsPath: "#008080", navigationPath: "FeedbackPages" },
     { key: 21, value: L20, text: "Yardım", colorsPath: "#ffcc99", navigationPath: "HelpPages" },
     { key: 22, value: L21, text: "Hakkımızda", colorsPath: "#ee9a49", navigationPath: "AboutUsPages" },
     { key: 23, value: L22, text: "Adreslerim", colorsPath: "#087EB0" },

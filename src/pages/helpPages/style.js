@@ -36,6 +36,7 @@ export default StyleSheet.create({
     },
     footerText: {
         fontFamily: "OpenSans-Regular",
-        color: colors.tabBarIconBackground
+        color: colors.tabBarIconBackground,
+        marginRight: 2
     }
 })

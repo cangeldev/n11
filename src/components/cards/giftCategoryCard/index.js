@@ -1,0 +1,1 @@
+export { GiftCategory } from "./giftCategory"

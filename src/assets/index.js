@@ -36,15 +36,18 @@ export const Info2 = require("./images/otherImages/info2.png");
 export const Info3 = require("./images/otherImages/info3.png");
 export const Info4 = require("./images/otherImages/info4.png");
 export const advertising = require("./images/otherImages/advertising.png");
+
 export const Kupon = require("./images/headerMenu/kuponlar.png");
 export const Saatlik = require("./images/headerMenu/saatlik.png");
 export const Kampanya = require("./images/headerMenu/kampanyalar.png");
 export const Firsat = require("./images/headerMenu/firsat.png");
+
 export const S1 = require("./images/sliderImage/a.png");
 export const S2 = require("./images/sliderImage/b.png");
 export const S3 = require("./images/sliderImage/c.png");
 export const S4 = require("./images/sliderImage/d.png");
 export const S5 = require("./images/sliderImage/e.png");
+
 export const M1 = require("./images/menuListImages/moda.png");
 export const M2 = require("./images/menuListImages/elektronik.png");
 export const M3 = require("./images/menuListImages/evyasam.png");
@@ -70,6 +73,7 @@ export const M22 = require("./images/menuListImages/bisiklet.jpg");
 export const M23 = require("./images/menuListImages/saglik.jpg");
 export const M24 = require("./images/menuListImages/emzirme.jpg");
 export const M25 = require("./images/menuListImages/supermarket.jpg");
+
 export const Ma1 = require("./images/markaImages/ma1.png")
 export const Ma2 = require("./images/markaImages/ma2.png")
 export const Ma3 = require("./images/markaImages/ma3.png")
@@ -81,6 +85,7 @@ export const Mavi = require("./images/markaImages/mavi.png")
 export const Nike = require("./images/markaImages/nike.png")
 export const Nivea = require("./images/markaImages/nivea.png")
 export const Hasbro = require("./images/markaImages/hasbro.png")
+
 export const L1 = require("./images/lists/coupon.png")
 export const L2 = require("./images/lists/package.png")
 export const L3 = require("./images/lists/favorites.png")
@@ -107,3 +112,29 @@ export const L23 = require("./images/lists/key.png")
 export const L24 = require("./images/lists/finger.png")
 export const L25 = require("./images/lists/document.png")
 export const L26 = require("./images/lists/logout.png")
+
+export const GiftPagesBackground = require("./images/giftPagesImages/giftPagesBackground.png");
+export const Anniversary = require("./images/giftPagesImages/anniversary.png");
+export const Babyshower = require("./images/giftPagesImages/babyshower.png");
+export const Birthday = require("./images/giftPagesImages/birthday.png");
+export const Child = require("./images/giftPagesImages/child.png");
+export const Homelife = require("./images/giftPagesImages/homelife.png");
+export const Marriage = require("./images/giftPagesImages/marriage.png");
+export const Men = require("./images/giftPagesImages/men.png");
+export const Mother = require("./images/giftPagesImages/mother.png");
+export const Newjob = require("./images/giftPagesImages/newjob.png");
+export const Personal = require("./images/giftPagesImages/personal.png");
+export const Pets = require("./images/giftPagesImages/pets.png");
+export const Technology = require("./images/giftPagesImages/technology.png");
+export const Women = require("./images/giftPagesImages/women.png");
+export const GiftAdvertisement = require("./images/giftPagesImages/giftAdvertisement.png");
+export const Moda = require("./images/giftPagesImages/moda.png");
+export const Book = require("./images/giftPagesImages/book.png");
+export const Elektronikpro = require("./images/giftPagesImages/elektronikpro.png");
+export const Otomotiv = require("./images/giftPagesImages/otomotiv.png");
+export const Spor = require("./images/giftPagesImages/spor.png");
+export const Watch = require("./images/giftPagesImages/watch.png");
+export const Motherchild = require("./images/giftPagesImages/motherchild.png");
+export const Ev = require("./images/giftPagesImages/ev.png");
+export const Evcil = require("./images/giftPagesImages/evcil.png");
+export const Parfume = require("./images/giftPagesImages/parfume.png");

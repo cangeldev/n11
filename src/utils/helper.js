@@ -1,4 +1,4 @@
-import { AboutUsList1, AboutUsList2, AboutUsList3, AboutUsList4, AboutUsList5, Check, Info1, Info2, Info3, Info4, L1, L10, L11, L12, L13, L14, L15, L16, L17, L18, L19, L2, L20, L21, L22, L23, L24, L25, L26, L3, L4, L5, L6, L7, L8, L9, QuestionImage } from 'assets';
+import { AboutUsList1, AboutUsList2, AboutUsList3, AboutUsList4, AboutUsList5, Anniversary, Babyshower, Birthday, Book, Check, Child, Elektronikpro, Ev, Evcil, Homelife, Info1, Info2, Info3, Info4, L1, L10, L11, L12, L13, L14, L15, L16, L17, L18, L19, L2, L20, L21, L22, L23, L24, L25, L26, L3, L4, L5, L6, L7, L8, L9, Marriage, Men, Moda, Mother, Motherchild, Newjob, Otomotiv, Parfume, Personal, Pets, QuestionImage, Spor, Technology, Watch, Women } from 'assets';
 import { M1, M10, M12, M13, M14, M15, M16, M17, M18, M19, M2, M20, M21, M22, M23, M24, M25, M3, M4, M5, M6, M7, M8, M9 } from 'assets'
 import { Adidas, Flo, Hasbro, Mavi, Nivea, Nike } from 'assets'
 export const list = [
@@ -13,11 +13,11 @@ export const list = [
     { key: 9, value: L4, text: "Ürün Sorularım", colorsPath: "#32cd32", navigationPath: "MyQuestionsPages" },
     { key: 10, value: L9, text: "Takip Ettiğim Mağazalar", colorsPath: "#cdcd00", navigationPath: "FollowStorePages" },
     { key: 11, value: L10, text: "Son Baktıklarım", colorsPath: "#8b3e2f", navigationPath: "MyQuestionsPages" },
-    { key: 12, value: L11, text: "Eşle Kazan", colorsPath: "#eecfa1" },
-    { key: 13, value: L12, text: "Kuponmatik", colorsPath: "#087EB0" },
-    { key: 14, value: L13, text: "Süper Fırsatlar", colorsPath: "#cc5a11" },
-    { key: 15, value: L14, text: "Çok Satanlar", colorsPath: "#8b0a50" },
-    { key: 16, value: L15, text: "Hediye Rehberi", colorsPath: "#800000", navigationPath: "ProductsFromAbroadPages" },
+    { key: 12, value: L11, text: "Eşle Kazan", colorsPath: "#eecfa1", navigationPath: "GiftGuidePages" },
+    { key: 13, value: L12, text: "Kuponmatik", colorsPath: "#087EB0", navigationPath: "GiftGuidePages" },
+    { key: 14, value: L13, text: "Süper Fırsatlar", colorsPath: "#cc5a11", navigationPath: "GiftGuidePages" },
+    { key: 15, value: L14, text: "Çok Satanlar", colorsPath: "#8b0a50", navigationPath: "GiftGuidePages" },
+    { key: 16, value: L15, text: "Hediye Rehberi", colorsPath: "#800000", navigationPath: "GiftGuidePages" },
     { key: 17, value: L16, text: "Yurt Dışından Ürünler", colorsPath: "#8b008b", navigationPath: "ProductsFromAbroadPages" },
     { key: 18, value: L17, text: "Bildirim Ayarları", colorsPath: "#00ced1", navigationPath: "NotificationSettingsPages" },
     { key: 19, value: L18, text: "Canlı Destek", colorsPath: "#a2cd5a", navigationPath: "HelpPages" },
@@ -456,4 +456,36 @@ export const helpList = [
         title: "n11 güvenli alışverişiçin neler yapıyor?",
         text: "Kredi Kartı ve Ödeme\n● Kredi kartı bilgilerinizden sadece adınız ve soyadınız saklanıyor. Başka hiçbir bilgi n11 bünyesinde saklanmıyor.\n● Ödeme ekranları ile bankalar arasındaki kredi kartı bilgisinin de dâhil olduğu veri alışverişi, tamamen kriptolanmış bir trafik ile iletiliyor.\n● Kredi kartıyla yaptığınız alışverişlerde kişisel bilgilerinizi girdiğiniz her sayfada, güvenliğiniz için son teknolojiler kullanılıyor. Her tarayıcının altında bulunan anahtar, buna işarettir. \n● Kullanıcılara kredi kartı, bankamatik ve sanal kartlarla birlikte BKM Express, GarantiPay ve MasterPass uygulamaları ile hızlı ve güvenli ödeme yapmaları sağlanıyor.\n● Kullanıcılar, bankaların güvenli ödeme altyapısı “3D Secure Sistemi”ni kullanabiliyor.\n● n11, kullanıcılarından e-posta yoluyla kredi kartı ve şifre bilgilerini kesinlikle talep etmez.\n\n Sahtecilik\n● n11, kullandığı yazılımlar ve 100’den fazla fraud (sahtecilik) kontrol filtresi ile maksimum seviyede güvenliği garanti ediyor. Bu filtreler ile, alışverişlerde oluşabilecek sahteciliğe karşı hem kullanıcılarını hem de kendisini koruma altına alıyor.\n● Kullanılan fraud (sahtecilik) filtreleri ile beraber sitenin bünyesinde barındırdığı “Fraud Birimi” sayesinde yapılan ödemeler güvenlik kontrollerinden geçiriliyor. Gerek görülürse kullanıcılar aranarak güvenlik kontrolünden geçiriliyor. Bu sayede sahtecilik minimum seviyeye indiriliyor ve mağduriyetler gideriliyor.\n\nDestek\n● n11’in, kullanıcılarına daha iyi ve daha hızlı hizmet verebilmek için kurduğu bir Çağrı Merkezi bulunuyor. Kullanıcılar haftanın yedi günü kesintisiz olarak telefonla kolay ve hızlı bir şekilde istedikleri konu hakkında bu merkezden destek alabiliyor.\n● n11’e yeni üye olacak kullanıcılara, şifre güvenliği için kolay tahmin edilebilen veya kırılabilen şifreleri seçmemeleri için gerekli sistem ayarları ve uyarıları yapılıyor.\n\n%99,9 Koruma\n● n11, SSL bağlantısını TLS V1.2 ile kuruyor. Bankanın ve n11’in kullandığı sertifika ise RSA kriptolama ile SHA256’dır ve anahtar boyutu 2048k’dır. Bu, mümkün olan en iyi şifrelemedir ve tavsiye edilen minimum değerlerin üzerindedir.\n● n11’in çalıştığı bankalar PCI (Payment Card Industry) zorlaması ile siteyi her çeyrekte zafiyet tarama testinden geçiriyor. En son yapılan zafiyet tarama testi, 30 Eylül 2016 tarihinde çalışılan tüm bankalara PCI-QSA sertifikası olan firma tarafından iletildi. n11, tüm zafiyet taraması testlerinden temiz raporu aldı.",
     },
+]
+
+
+export const GiftGuideImages = [
+    { id: 1, image: Women, name: "Kadın" },
+    { id: 2, image: Men, name: "Erkek", },
+    { id: 3, image: Child, name: "Çocuk", },
+    { id: 4, image: Mother, name: "Anne & Bebek", },
+    { id: 5, image: Pets, name: "Evcil Hayvan", },
+    { id: 6, image: Technology, name: "Teknoloji", },
+    { id: 7, image: Homelife, name: "Ev & Yaşam", },
+    { id: 8, image: Birthday, name: "Doğum Günü" },
+    { id: 9, image: Anniversary, name: "Yıl Dönümü" },
+    { id: 10, image: Marriage, name: "Evlilik" },
+    { id: 11, image: Newjob, name: "Yeni İş / Tebrik" },
+    { id: 12, image: Personal, name: "Kişiye Özel" },
+    { id: 13, image: Babyshower, name: "Baby Shower" }
+
+]
+export const GiftCategoryList = [
+    { id: 1, image: Moda, name: "Moda" },
+    { id: 2, image: Parfume, name: "Kozmetik & Kişisel", },
+    { id: 3, image: Spor, name: "Spor & Outdoor", },
+    { id: 4, image: Watch, name: "Mücevher & Saat", },
+    { id: 5, image: Otomotiv, name: "Otomotiv & Motorsiklet", },
+    { id: 6, image: Book, name: "Kitap & Film & Müzik", },
+    { id: 7, image: Elektronikpro, name: "Elektronik", },
+    { id: 8, image: Ev, name: "Ev & Yaşam" },
+    { id: 9, image: Motherchild, name: "Anne & Bebek" },
+    { id: 10, image: Evcil, name: "Evcil Hayvan" },
+
+
 ]

@@ -7,7 +7,7 @@ import colors from 'assets/colors/colors';
 import IconI from "react-native-vector-icons/Ionicons";
 import { Home, HomeFocused, Search, User, UserFocused } from 'assets'
 import SystemNavigationBar from 'react-native-system-navigation-bar';
-import { AccountSettingsPages, CouponPages, FeedbackPages, FollowStorePages, HelpPages, MyComments, MyFriendsPages, MyGaragePages, MyOrders, MyQuestionsPages, NotificationSettingsPages, NotificationsPages, ShareWinPages } from 'pages';
+import { AccountSettingsPages, CouponPages, FeedbackPages, FollowStorePages, HelpPages, MyComments, MyFriendsPages, MyGaragePages, MyOrders, MyQuestionsPages, NotificationSettingsPages, NotificationsPages, ProductsFromAbroadPages, ShareWinPages } from 'pages';
 import { AccountScreen, CategoryScreen, HomeScreen, ListsScreen, ShopingCartScreen } from 'screens';
 import { AboutUsPages } from 'pages/aboutUsPages';
 SystemNavigationBar.setNavigationColor(colors.white);
@@ -301,6 +301,11 @@ function AccountStackScreen() {
         }}
         name="NotificationSettingsPages"
         component={NotificationSettingsPages}
+      />
+      <AccountStack.Screen
+
+        name="ProductsFromAbroadPages"
+        component={ProductsFromAbroadPages}
       />
     </AccountStack.Navigator>);
 }
